@@ -1,0 +1,118 @@
+[main] WARN soot.jimple.infoflow.methodSummary.data.provider.LazySummaryProvider - Lazy loading summaries from a jar/zip file might throw a ClosedChannelException. Use the EagerSummaryProvider instead.
+[main] INFO soot.jimple.infoflow.cmd.MainClass - Analyzing app /Users/ljubarah/DroidBench-develop/apk/GeneralJava/StaticInitialization2.apk (1 of 1)...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Initializing Soot...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Loading dex files...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.001853542 seconds
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Registered a memory warning system for 5.529,6 MiB
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 1 components...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Collecting callbacks in DEFAULT mode...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Callback analysis done.
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 1 components...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 1 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 1 components...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 0 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Callback analysis terminated normally
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Entry point calculation done.
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.config.http.CsrfBeanDefinitionParser: org.springframework.beans.factory.config.BeanDefinition getCsrfLogoutHandler)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.config.http.FormLoginBeanDefinitionParser: java.lang.String getLoginPage)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <com.google.auth.oauth2.UserCredentials: java.lang.String getClientSecret)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.web.servlet.tags.UrlTag: java.lang.String createUrl)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.apache.xmlrpc.webserver.RequestData: java.lang.String getMethod)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.dmfs.oauth2.client.http.requests.ResourceOwnerPasswordTokenRequest: org.dmfs.httpclient.HttpRequestEntity requestEntity)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.concurrent.DelegatingSecurityContextExecutorService: java.util.concurrent.ExecutorService getDelegate)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.config.annotation.web.builders.HttpSecurity: org.springframework.security.config.'annotation'.web.configurers.HeadersConfigurer headers)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.web.servlet.tags.EscapeBodyTag: java.lang.String readBodyContent)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.config.http.FormLoginBeanDefinitionParser: java.lang.String getLoginProcessingUrl)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.config.annotation.web.configurers.LogoutConfigurer: java.util.List getLogoutHandlers)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.apache.xmlrpc.webserver.RequestData: java.lang.String getHttpVersion)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.apache.xmlrpc.webserver.HttpServletRequestImpl: void parseParameters)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match:     
+[main] INFO soot.jimple.infoflow.android.source.AccessPathBasedSourceSinkManager - Created a SourceSinkManager with 71 sources, 193 sinks, and 1 callback methods.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Collecting callbacks and building a callgraph took 0 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Running data flow analysis on /Users/ljubarah/DroidBench-develop/apk/GeneralJava/StaticInitialization2.apk with 71 sources and 193 sinks...
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Implicit flow tracking is NOT enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Exceptional flow tracking is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Running with a maximum access path length of 5
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using path-agnostic result collection
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Recursive access path shortening is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Taint analysis enabled: true
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using alias algorithm PtsBased
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Registered a memory warning system for 5.529,6 MiB
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph construction took 0 seconds
+[main] INFO soot.jimple.infoflow.codeOptimization.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Dead code elimination took 0.007106292 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph has 25 edges
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Starting Taint Analysis
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Using context- and flow-sensitive solver
+[main] WARN soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Trying to use a flow-sensitive aliasing with an aliasing strategy that does not support this feature
+[main] WARN soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Running with limited join point abstractions can break context-sensitive path builders
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Looking for sources and sinks...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Source lookup done, found 1 sources and 1 sinks.
+[FlowDroid] ERROR heros.solver.CountingThreadPoolExecutor - Worker thread execution failed: Cannot invoke "soot.jimple.infoflow.data.Abstraction.deriveInactiveAbstraction(soot.jimple.Stmt)" because "absCallee" is null
+java.lang.NullPointerException: Cannot invoke "soot.jimple.infoflow.data.Abstraction.deriveInactiveAbstraction(soot.jimple.Stmt)" because "absCallee" is null
+	at soot.jimple.infoflow.aliasing.PtsBasedAliasStrategy.computeAliasTaintsInternal(PtsBasedAliasStrategy.java:113)
+	at soot.jimple.infoflow.aliasing.PtsBasedAliasStrategy.computeAliasTaints(PtsBasedAliasStrategy.java:50)
+	at soot.jimple.infoflow.aliasing.Aliasing.computeAliases(Aliasing.java:89)
+	at soot.jimple.infoflow.problems.InfoflowProblem$1$3.computeTargetsInternal(InfoflowProblem.java:712)
+	at soot.jimple.infoflow.problems.InfoflowProblem$1$3.computeTargets(InfoflowProblem.java:518)
+	at soot.jimple.infoflow.solver.fastSolver.InfoflowSolver.computeReturnFlowFunction(InfoflowSolver.java:92)
+	at soot.jimple.infoflow.solver.fastSolver.InfoflowSolver.computeReturnFlowFunction(InfoflowSolver.java:37)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver.processExit(IFDSSolver.java:522)
+	at soot.jimple.infoflow.solver.fastSolver.InfoflowSolver.processExit(InfoflowSolver.java:140)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver$PathEdgeProcessingTask.runInternal(IFDSSolver.java:751)
+	at soot.jimple.infoflow.solver.fastSolver.LocalWorklistTask.run(LocalWorklistTask.java:27)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Exception in thread "FlowDroid" java.lang.NullPointerException: Cannot invoke "soot.jimple.infoflow.data.Abstraction.deriveInactiveAbstraction(soot.jimple.Stmt)" because "absCallee" is null
+	at soot.jimple.infoflow.aliasing.PtsBasedAliasStrategy.computeAliasTaintsInternal(PtsBasedAliasStrategy.java:113)
+	at soot.jimple.infoflow.aliasing.PtsBasedAliasStrategy.computeAliasTaints(PtsBasedAliasStrategy.java:50)
+	at soot.jimple.infoflow.aliasing.Aliasing.computeAliases(Aliasing.java:89)
+	at soot.jimple.infoflow.problems.InfoflowProblem$1$3.computeTargetsInternal(InfoflowProblem.java:712)
+	at soot.jimple.infoflow.problems.InfoflowProblem$1$3.computeTargets(InfoflowProblem.java:518)
+	at soot.jimple.infoflow.solver.fastSolver.InfoflowSolver.computeReturnFlowFunction(InfoflowSolver.java:92)
+	at soot.jimple.infoflow.solver.fastSolver.InfoflowSolver.computeReturnFlowFunction(InfoflowSolver.java:37)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver.processExit(IFDSSolver.java:522)
+	at soot.jimple.infoflow.solver.fastSolver.InfoflowSolver.processExit(InfoflowSolver.java:140)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver$PathEdgeProcessingTask.runInternal(IFDSSolver.java:751)
+	at soot.jimple.infoflow.solver.fastSolver.LocalWorklistTask.run(LocalWorklistTask.java:27)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+[main] ERROR soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Exception during data flow analysis
+java.lang.RuntimeException: There were exceptions during IFDS analysis. Exiting.
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver.runExecutorAndAwaitCompletion(IFDSSolver.java:263)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver.awaitCompletionComputeValuesAndShutdown(IFDSSolver.java:230)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver.solve(IFDSSolver.java:202)
+	at soot.jimple.infoflow.AbstractInfoflow.runTaintAnalysis(AbstractInfoflow.java:1177)
+	at soot.jimple.infoflow.AbstractInfoflow.runAnalysis(AbstractInfoflow.java:875)
+	at soot.jimple.infoflow.AbstractInfoflow.runAnalysis(AbstractInfoflow.java:808)
+	at soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow.runAnalysis(SetupApplication.java:1358)
+	at soot.jimple.infoflow.android.SetupApplication.processEntryPoint(SetupApplication.java:1656)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1585)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1532)
+	at soot.jimple.infoflow.cmd.MainClass.run(MainClass.java:362)
+	at soot.jimple.infoflow.cmd.MainClass.main(MainClass.java:260)
+Caused by: java.lang.NullPointerException: Cannot invoke "soot.jimple.infoflow.data.Abstraction.deriveInactiveAbstraction(soot.jimple.Stmt)" because "absCallee" is null
+	at soot.jimple.infoflow.aliasing.PtsBasedAliasStrategy.computeAliasTaintsInternal(PtsBasedAliasStrategy.java:113)
+	at soot.jimple.infoflow.aliasing.PtsBasedAliasStrategy.computeAliasTaints(PtsBasedAliasStrategy.java:50)
+	at soot.jimple.infoflow.aliasing.Aliasing.computeAliases(Aliasing.java:89)
+	at soot.jimple.infoflow.problems.InfoflowProblem$1$3.computeTargetsInternal(InfoflowProblem.java:712)
+	at soot.jimple.infoflow.problems.InfoflowProblem$1$3.computeTargets(InfoflowProblem.java:518)
+	at soot.jimple.infoflow.solver.fastSolver.InfoflowSolver.computeReturnFlowFunction(InfoflowSolver.java:92)
+	at soot.jimple.infoflow.solver.fastSolver.InfoflowSolver.computeReturnFlowFunction(InfoflowSolver.java:37)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver.processExit(IFDSSolver.java:522)
+	at soot.jimple.infoflow.solver.fastSolver.InfoflowSolver.processExit(InfoflowSolver.java:140)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver$PathEdgeProcessingTask.runInternal(IFDSSolver.java:751)
+	at soot.jimple.infoflow.solver.fastSolver.LocalWorklistTask.run(LocalWorklistTask.java:27)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks from 0 sources
