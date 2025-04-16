@@ -1,0 +1,7 @@
+These subsets from DroidBench contain a lot of instances:
+
+
+Emulator Detection
+General Java
+Lifecycle
+Inter-Component Communication
