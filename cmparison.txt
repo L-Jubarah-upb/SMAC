@@ -1,0 +1,35 @@
+a1 = ["a1", "a2", "a3", "a4", "a5", "a6", "a7", "a8", "a9", "a10"]
+b1 = ["b1", "b2", "b3", "b4", "b5", "b6", "b7", "b8", "b9", "b10"]
+a2 = ["a1", "a2", "a3", "a4"]
+b2 = ["b1", "b2", "b3", "b4"]
+
+
+source_expected_list = list(zip(a1, b1))
+source_found_list = list(zip(a2, b2))
+
+source_expected_list_copy = source_expected_list.copy()
+source_found_list_copy = source_found_list.copy()
+
+
+source_intersection = []
+for i in source_expected_list:
+    if i in source_found_list_copy:
+        source_intersection.append(i)
+        source_expected_list_copy.remove(i)
+        source_found_list_copy.remove(i)
+
+print("TP")
+print(source_intersection)
+print(len(source_intersection))
+print("")
+print("FN")
+print(source_expected_list_copy)
+print(len(source_expected_list_copy))
+print("")
+
+print("FP")
+print(source_found_list_copy)
+print(len(source_found_list_copy))
+print("")
+
+
