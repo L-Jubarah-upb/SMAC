@@ -1,0 +1,440 @@
+Incumbent configuration: Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'cgalgo': np.str_('RTA'),
+  'pathreconstructionmode': np.str_('NONE'),
+})
+Optimal cost: 0.4
+
+Runhistory:
+------------------------
+configuration_id= 1
+configuration = Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'cgalgo': np.str_('RTA'),
+  'pathreconstructionmode': np.str_('NONE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 2
+configuration = Configuration(values={
+  'aliasalgo': np.str_('PTSBASED'),
+  'cgalgo': np.str_('CHA'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 3
+configuration = Configuration(values={
+  'aliasalgo': np.str_('LAZY'),
+  'cgalgo': np.str_('GEOM'),
+  'pathreconstructionmode': np.str_('FAST'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 4
+configuration = Configuration(values={
+  'aliasalgo': np.str_('NONE'),
+  'cgalgo': np.str_('AUTO'),
+  'pathreconstructionmode': np.str_('FAST'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 5
+configuration = Configuration(values={
+  'aliasalgo': np.str_('NONE'),
+  'cgalgo': np.str_('GEOM'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 6
+configuration = Configuration(values={
+  'aliasalgo': np.str_('LAZY'),
+  'cgalgo': np.str_('AUTO'),
+  'pathreconstructionmode': np.str_('NONE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 7
+configuration = Configuration(values={
+  'aliasalgo': np.str_('PTSBASED'),
+  'cgalgo': np.str_('SPARK'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 8
+configuration = Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'cgalgo': np.str_('VTA'),
+  'pathreconstructionmode': np.str_('FAST'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 9
+configuration = Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'cgalgo': np.str_('GEOM'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 10
+configuration = Configuration(values={
+  'aliasalgo': np.str_('PTSBASED'),
+  'cgalgo': np.str_('CHA'),
+  'pathreconstructionmode': np.str_('FAST'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 11
+configuration = Configuration(values={
+  'aliasalgo': np.str_('LAZY'),
+  'cgalgo': np.str_('RTA'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 12
+configuration = Configuration(values={
+  'aliasalgo': np.str_('NONE'),
+  'cgalgo': np.str_('CHA'),
+  'pathreconstructionmode': np.str_('NONE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 13
+configuration = Configuration(values={
+  'aliasalgo': np.str_('NONE'),
+  'cgalgo': np.str_('RTA'),
+  'pathreconstructionmode': np.str_('NONE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 14
+configuration = Configuration(values={
+  'aliasalgo': np.str_('LAZY'),
+  'cgalgo': np.str_('VTA'),
+  'pathreconstructionmode': np.str_('FAST'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 15
+configuration = Configuration(values={
+  'aliasalgo': np.str_('PTSBASED'),
+  'cgalgo': np.str_('SPARK'),
+  'pathreconstructionmode': np.str_('NONE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 16
+configuration = Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'cgalgo': np.str_('AUTO'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 17
+configuration = Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'cgalgo': np.str_('SPARK'),
+  'pathreconstructionmode': np.str_('FAST'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 18
+configuration = Configuration(values={
+  'aliasalgo': np.str_('PTSBASED'),
+  'cgalgo': np.str_('AUTO'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 19
+configuration = Configuration(values={
+  'aliasalgo': np.str_('LAZY'),
+  'cgalgo': np.str_('SPARK'),
+  'pathreconstructionmode': np.str_('NONE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 20
+configuration = Configuration(values={
+  'aliasalgo': np.str_('NONE'),
+  'cgalgo': np.str_('VTA'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 21
+configuration = Configuration(values={
+  'aliasalgo': np.str_('NONE'),
+  'cgalgo': np.str_('RTA'),
+  'pathreconstructionmode': np.str_('FAST'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 22
+configuration = Configuration(values={
+  'aliasalgo': np.str_('LAZY'),
+  'cgalgo': np.str_('VTA'),
+  'pathreconstructionmode': np.str_('NONE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 23
+configuration = Configuration(values={
+  'aliasalgo': np.str_('PTSBASED'),
+  'cgalgo': np.str_('GEOM'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 24
+configuration = Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'cgalgo': np.str_('CHA'),
+  'pathreconstructionmode': np.str_('NONE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 25
+configuration = Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'cgalgo': np.str_('SPARK'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 26
+configuration = Configuration(values={
+  'aliasalgo': np.str_('PTSBASED'),
+  'cgalgo': np.str_('VTA'),
+  'pathreconstructionmode': np.str_('NONE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 27
+configuration = Configuration(values={
+  'aliasalgo': np.str_('LAZY'),
+  'cgalgo': np.str_('SPARK'),
+  'pathreconstructionmode': np.str_('FAST'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 28
+configuration = Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'cgalgo': np.str_('RTA'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 29
+configuration = Configuration(values={
+  'aliasalgo': np.str_('PTSBASED'),
+  'cgalgo': np.str_('CHA'),
+  'pathreconstructionmode': np.str_('NONE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 30
+configuration = Configuration(values={
+  'aliasalgo': np.str_('NONE'),
+  'cgalgo': np.str_('GEOM'),
+  'pathreconstructionmode': np.str_('NONE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 31
+configuration = Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'cgalgo': np.str_('GEOM'),
+  'pathreconstructionmode': np.str_('NONE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 32
+configuration = Configuration(values={
+  'aliasalgo': np.str_('PTSBASED'),
+  'cgalgo': np.str_('SPARK'),
+  'pathreconstructionmode': np.str_('FAST'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 33
+configuration = Configuration(values={
+  'aliasalgo': np.str_('NONE'),
+  'cgalgo': np.str_('AUTO'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 34
+configuration = Configuration(values={
+  'aliasalgo': np.str_('LAZY'),
+  'cgalgo': np.str_('VTA'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 35
+configuration = Configuration(values={
+  'aliasalgo': np.str_('LAZY'),
+  'cgalgo': np.str_('CHA'),
+  'pathreconstructionmode': np.str_('FAST'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 36
+configuration = Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'cgalgo': np.str_('AUTO'),
+  'pathreconstructionmode': np.str_('NONE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 37
+configuration = Configuration(values={
+  'aliasalgo': np.str_('NONE'),
+  'cgalgo': np.str_('RTA'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 38
+configuration = Configuration(values={
+  'aliasalgo': np.str_('LAZY'),
+  'cgalgo': np.str_('AUTO'),
+  'pathreconstructionmode': np.str_('FAST'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 39
+configuration = Configuration(values={
+  'aliasalgo': np.str_('NONE'),
+  'cgalgo': np.str_('GEOM'),
+  'pathreconstructionmode': np.str_('FAST'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 40
+configuration = Configuration(values={
+  'aliasalgo': np.str_('PTSBASED'),
+  'cgalgo': np.str_('GEOM'),
+  'pathreconstructionmode': np.str_('NONE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 41
+configuration = Configuration(values={
+  'aliasalgo': np.str_('NONE'),
+  'cgalgo': np.str_('AUTO'),
+  'pathreconstructionmode': np.str_('NONE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 42
+configuration = Configuration(values={
+  'aliasalgo': np.str_('LAZY'),
+  'cgalgo': np.str_('GEOM'),
+  'pathreconstructionmode': np.str_('NONE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 43
+configuration = Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'cgalgo': np.str_('VTA'),
+  'pathreconstructionmode': np.str_('NONE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 44
+configuration = Configuration(values={
+  'aliasalgo': np.str_('LAZY'),
+  'cgalgo': np.str_('RTA'),
+  'pathreconstructionmode': np.str_('FAST'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 45
+configuration = Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'cgalgo': np.str_('CHA'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 46
+configuration = Configuration(values={
+  'aliasalgo': np.str_('NONE'),
+  'cgalgo': np.str_('CHA'),
+  'pathreconstructionmode': np.str_('FAST'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 47
+configuration = Configuration(values={
+  'aliasalgo': np.str_('PTSBASED'),
+  'cgalgo': np.str_('AUTO'),
+  'pathreconstructionmode': np.str_('NONE'),
+})
+cost = 0.4
+------------------------
+------------------------
+configuration_id= 48
+configuration = Configuration(values={
+  'aliasalgo': np.str_('LAZY'),
+  'cgalgo': np.str_('CHA'),
+  'pathreconstructionmode': np.str_('NONE'),
+})
+cost = 0.4
+------------------------
