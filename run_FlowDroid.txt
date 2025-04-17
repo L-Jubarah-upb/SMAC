@@ -1,0 +1,16 @@
+java -jar soot-infoflow-cmd-2.14.1-jar-with-dependencies.jar \ 
+-a /Users/ljubarah/DroidBench-develop/apk/GeneralJava/Loop1.apk \ 
+-p /Users/ljubarah/Library/Android/sdk/platforms \ 
+-s soot-infoflow-android/SourcesAndSinks.txt  \ 
+-ca "DEFAULT"  \ 
+-aa "PTSBASED"  \ 
+-l "NONE"  \ 
+
+
+
+
+java -jar soot-infoflow-cmd-2.14.1-jar-with-dependencies.jar \-a /Users/ljubarah/DroidBench-develop/apk/GeneralJava/Exceptions7.apk \-p /Users/ljubarah/Library/Android/sdk/platforms \-s soot-infoflow-android/SourcesAndSinks.txt \-o /Users/ljubarah/Downloads/output \ -ca "DEFAULT" \ -aa "PTSBASED" \ -l "ALL" \ 
+
+
+
+java -jar soot-infoflow-cmd-2.14.1-jar-with-dependencies.jar \-a /Users/ljubarah/DroidBench-develop/apk/GeneralJava/Exceptions7.apk \-p /Users/ljubarah/Library/Android/sdk/platforms \-s soot-infoflow-android/SourcesAndSinks.txt  
