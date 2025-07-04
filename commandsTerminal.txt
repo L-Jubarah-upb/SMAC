@@ -1,0 +1,24 @@
+scp /Users/ljubarah/SMAC3/benchmark/src/models/LIfecycle.py ljubarah@smac:~
+
+ssh ljubarah@smac
+
+python3 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install -r ConfigSpace #leads to error
+pip install smac --break-system-packages #leads to error
+sudo apt-get install build-essential swig
+pip install smac --break-system-packages
+pip install ConfigSpace --break-system-packages
+ 
+ 
+cd ordner1
+python3 FlowDroidSMAC.py
+
+#number of files in directory in terminal: 
+ls -1 | wc -l
+ 
+#remove file:
+rm file
+
+#delete directory
+rm -rf directory
