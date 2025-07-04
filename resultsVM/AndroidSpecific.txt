@@ -1,0 +1,142 @@
+(.venv) ljubarah@sse-vm-leen:~$ python3 AndroidSpecific.py 
+[INFO][abstract_initial_design.py:87] Reducing the number of initial configurations from 110 to 62 (max_ratio == 0.25).
+[INFO][abstract_initial_design.py:139] Using 62 initial design configurations and 0 additional configurations.
+[INFO][abstract_intensifier.py:307] Using only one seed for deterministic scenario.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/View1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/Parcel1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/ApplicationModeling1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/PrivateDataLeak1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/PrivateDataLeak3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/Obfuscation1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/InactiveActivity.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/PrivateDataLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/Library2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/DirectLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/LogNoLeak.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/PublicAPIField1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/PublicAPIField2.apk'
+all_f_score [1.0, 1.0, 1.0, 0, 0.3333333333333333, 1.0, 1, 0.5, 1.0, 1.0, 1, 1.0, 0.75]
+1 - statistics.mean(all_f_score) 0.1858974358974359
+[INFO][abstract_intensifier.py:517] Added config 710c25 as new incumbent because there are no incumbents yet.
+[INFO][smbo.py:473] Cost threshold was reached. Abort is requested.
+[INFO][smbo.py:340] Shutting down because the stop flag was set.
+[INFO][abstract_intensifier.py:307] Using only one seed for deterministic scenario.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/View1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/Parcel1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/ApplicationModeling1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/PrivateDataLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/PrivateDataLeak3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/Obfuscation1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/InactiveActivity.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/PrivateDataLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/Library2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/DirectLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/LogNoLeak.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/PublicAPIField1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/PublicAPIField2.apk'
+all_f_score [1.0, 0.0, 0.0, 0.0, 0.3333333333333333, 1.0, 1, 0.0, 1.0, 1.0, 1, 1.0, 0.75]
+1 - statistics.mean(all_f_score) 0.3782051282051282
+Default configuration: Configuration(values={
+  'aliasalgo': 'NONE',
+  'callbackanalyzer': 'DEFAULT',
+  'callbacksourcemode': 'NONE',
+  'cgalgo': 'CHA',
+  'codeelimination': 'NONE',
+  'dataflowsolver': 'CONTEXTFLOWSENSITIVE',
+  'implicit': 'NONE',
+  'layoutmode': 'NONE',
+  'pathalgo': 'CONTEXTSENSITIVE',
+  'pathreconstructionmode': 'NONE',
+  'staticmode': 'CONTEXTFLOWSENSITIVE',
+})
+Default cost: 0.3782051282051282
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/View1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/Parcel1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/ApplicationModeling1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/PrivateDataLeak1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/PrivateDataLeak3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/Obfuscation1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/InactiveActivity.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/PrivateDataLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/Library2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/DirectLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/LogNoLeak.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/PublicAPIField1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/AndroidSpecific/PublicAPIField2.apk'
+all_f_score [1.0, 1.0, 1.0, 0, 0.3333333333333333, 1.0, 1, 0.5, 1.0, 1.0, 1, 1.0, 0.75]
+1 - statistics.mean(all_f_score) 0.1858974358974359
+Incumbent configuration: Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('SOURCELIST'),
+  'cgalgo': np.str_('GEOM'),
+  'codeelimination': np.str_('NONE'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('ALL'),
+  'layoutmode': np.str_('PWD'),
+  'pathalgo': np.str_('CONTEXTSENSITIVE'),
+  'pathreconstructionmode': np.str_('NONE'),
+  'staticmode': np.str_('CONTEXTFLOWSENSITIVE'),
+})
+Optimal cost: 0.1858974358974359
+
+Runhistory:
+------------------------
+configuration_id= 1
+configuration = Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('SOURCELIST'),
+  'cgalgo': np.str_('GEOM'),
+  'codeelimination': np.str_('NONE'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('ALL'),
+  'layoutmode': np.str_('PWD'),
+  'pathalgo': np.str_('CONTEXTSENSITIVE'),
+  'pathreconstructionmode': np.str_('NONE'),
+  'staticmode': np.str_('CONTEXTFLOWSENSITIVE'),
+})
+cost = 0.1858974358974359
+------------------------
+(.venv) ljubarah@sse-vm-leen:~$ 
