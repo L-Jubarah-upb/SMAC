@@ -1,0 +1,205 @@
+(.venv) ljubarah@sse-vm-leen:~$ python3 EmulatorDetection.py 
+[INFO][abstract_initial_design.py:87] Reducing the number of initial configurations from 110 to 62 (max_ratio == 0.25).
+[INFO][abstract_initial_design.py:139] Using 62 initial design configurations and 0 additional configurations.
+[INFO][abstract_intensifier.py:307] Using only one seed for deterministic scenario.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/File1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/Sensors1.apk'
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/PlayStore2.apk' due to timeout.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/IMEI1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/PlayStore1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/Build1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/SubscriberId1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/Contacts1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/ContentProvider1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/IP1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/Battery1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/VoiceMail1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/Bluetooth1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/PI1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/DeviceId1.apk'
+all_f_score [1.0, 1.0, 0, 1.0, 0.8, 1.0, 0.8, 1.0, 1.0, 0.6666666666666666, 0.0, 1.0, 1.0, 0.0, 1.0]
+1 - statistics.mean(all_f_score) 0.24888888888888894
+[INFO][abstract_intensifier.py:517] Added config 710c25 as new incumbent because there are no incumbents yet.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/File1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/Sensors1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/PlayStore2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/IMEI1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/PlayStore1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/Build1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/SubscriberId1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/Contacts1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/ContentProvider1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/IP1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/Battery1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/VoiceMail1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/Bluetooth1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/PI1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/DeviceId1.apk'
+all_f_score [1.0, 1.0, 1.0, 0.0, 0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0]
+1 - statistics.mean(all_f_score) 0.19999999999999996
+[INFO][abstract_intensifier.py:596] Added config c8f218 and rejected config 710c25 as incumbent because it is not better than the incumbents on 1 instances: 
+[INFO][smbo.py:473] Cost threshold was reached. Abort is requested.
+[INFO][smbo.py:340] Shutting down because the stop flag was set.
+[INFO][abstract_intensifier.py:307] Using only one seed for deterministic scenario.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/File1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/Sensors1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/PlayStore2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/IMEI1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/PlayStore1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/Build1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/SubscriberId1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/Contacts1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/ContentProvider1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/IP1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/Battery1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/VoiceMail1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/Bluetooth1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/PI1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/DeviceId1.apk'
+all_f_score [1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0]
+1 - statistics.mean(all_f_score) 0.1333333333333333
+Default configuration: Configuration(values={
+  'aliasalgo': 'NONE',
+  'callbackanalyzer': 'DEFAULT',
+  'callbacksourcemode': 'NONE',
+  'cgalgo': 'CHA',
+  'codeelimination': 'NONE',
+  'dataflowsolver': 'CONTEXTFLOWSENSITIVE',
+  'implicit': 'NONE',
+  'layoutmode': 'NONE',
+  'pathalgo': 'CONTEXTSENSITIVE',
+  'pathreconstructionmode': 'NONE',
+  'staticmode': 'CONTEXTFLOWSENSITIVE',
+})
+Default cost: 0.1333333333333333
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/File1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/Sensors1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/PlayStore2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/IMEI1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/PlayStore1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/Build1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/SubscriberId1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/Contacts1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/ContentProvider1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/IP1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/Battery1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/VoiceMail1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/Bluetooth1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/PI1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/EmulatorDetection/DeviceId1.apk'
+all_f_score [1.0, 1.0, 1.0, 0.0, 0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0]
+1 - statistics.mean(all_f_score) 0.19999999999999996
+Incumbent configuration: Configuration(values={
+  'aliasalgo': np.str_('PTSBASED'),
+  'callbackanalyzer': np.str_('DEFAULT'),
+  'callbacksourcemode': np.str_('NONE'),
+  'cgalgo': np.str_('VTA'),
+  'codeelimination': np.str_('PROPAGATECONSTS'),
+  'dataflowsolver': np.str_('CONTEXTFLOWSENSITIVE'),
+  'implicit': np.str_('NONE'),
+  'layoutmode': np.str_('PWD'),
+  'pathalgo': np.str_('CONTEXTINSENSITIVE'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+  'staticmode': np.str_('NONE'),
+})
+Optimal cost: 0.19999999999999996
+
+Runhistory:
+------------------------
+configuration_id= 1
+configuration = Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('SOURCELIST'),
+  'cgalgo': np.str_('GEOM'),
+  'codeelimination': np.str_('NONE'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('ALL'),
+  'layoutmode': np.str_('PWD'),
+  'pathalgo': np.str_('CONTEXTSENSITIVE'),
+  'pathreconstructionmode': np.str_('NONE'),
+  'staticmode': np.str_('CONTEXTFLOWSENSITIVE'),
+})
+cost = 0.24888888888888894
+------------------------
+------------------------
+configuration_id= 2
+configuration = Configuration(values={
+  'aliasalgo': np.str_('PTSBASED'),
+  'callbackanalyzer': np.str_('DEFAULT'),
+  'callbacksourcemode': np.str_('NONE'),
+  'cgalgo': np.str_('VTA'),
+  'codeelimination': np.str_('PROPAGATECONSTS'),
+  'dataflowsolver': np.str_('CONTEXTFLOWSENSITIVE'),
+  'implicit': np.str_('NONE'),
+  'layoutmode': np.str_('PWD'),
+  'pathalgo': np.str_('CONTEXTINSENSITIVE'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+  'staticmode': np.str_('NONE'),
+})
+cost = 0.19999999999999996
+------------------------
+(.venv) ljubarah@sse-vm-leen:~$ 
