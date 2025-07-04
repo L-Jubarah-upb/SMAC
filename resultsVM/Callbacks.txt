@@ -1,0 +1,3564 @@
+(.venv) ljubarah@sse-vm-leen:~$ exit
+exit
+Connection to sse-vm-leen.cs.upb.de closed.
+(base) ljubarah@lcd-sse-4942-11 ~ % scp /Users/ljubarah/SMAC3/benchmark/src/models/Callbacks.py ljubarah@smac:~ 
+(ljubarah@sshgate.cs.upb.de) Password: 
+Enter passphrase for key '/Users/ljubarah/.ssh/smac': 
+Callbacks.py                                                          100%   20KB   5.8MB/s   00:00    
+(base) ljubarah@lcd-sse-4942-11 ~ % ssh ljubarah@smac
+(ljubarah@sshgate.cs.upb.de) Password: 
+Enter passphrase for key '/Users/ljubarah/.ssh/smac': 
+ljubarah@sse-vm-leen:~$ python3 -m venv .venv
+ljubarah@sse-vm-leen:~$ source .venv/bin/activate
+(.venv) ljubarah@sse-vm-leen:~$ python3 Callbacks.py 
+[INFO][abstract_initial_design.py:87] Reducing the number of initial configurations from 110 to 62 (max_ratio == 0.25).
+[INFO][abstract_initial_design.py:139] Using 62 initial design configurations and 0 additional configurations.
+[INFO][abstract_intensifier.py:307] Using only one seed for deterministic scenario.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 1.0, 0.5, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 1.0, 0.0, 1.0, 0.0]
+1 - statistics.mean(all_f_score) 0.5666666666666667
+[INFO][abstract_intensifier.py:517] Added config 710c25 as new incumbent because there are no incumbents yet.
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk' due to [FlowDroid] ERROR
+all_f_score [0, 1.0, 0.0, 0, 0, 0, 0.0, 0, 1, 0, 0.0, 0.0, 0, 0.0, 0]
+1 - statistics.mean(all_f_score) 0.8666666666666667
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 1.0, 0.4444444444444444, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 1.0, 0.0, 1.0, 0.0]
+1 - statistics.mean(all_f_score) 0.5703703703703704
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [1.0, 1.0, 1.0, 0.8333333333333334, 0.8571428571428571, 0.0, 0.3333333333333333, 1.0, 1, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0]
+1 - statistics.mean(all_f_score) 0.39841269841269844
+[INFO][abstract_intensifier.py:596] Added config 64df66 and rejected config 710c25 as incumbent because it is not better than the incumbents on 1 instances: 
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 1.0, 0.5, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 1.0, 0.0, 1.0, 0.0]
+1 - statistics.mean(all_f_score) 0.5666666666666667
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk' due to timeout.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk' due to timeout.
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk' due to timeout.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk' due to timeout.
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk' due to timeout.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk' due to timeout.
+all_f_score [0.0, 1.0, 1.0, 0, 0.75, 0, 0, 0.0, 0, 0, 0.0, 1.0, 0.0, 1.0, 0]
+1 - statistics.mean(all_f_score) 0.6833333333333333
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 0, 0, 0, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 0, 0.0, 0, 0.0]
+1 - statistics.mean(all_f_score) 0.8666666666666667
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [1.0, 1.0, 0.0, 1.0, 0.8, 0.8571428571428571, 0.0, 1.0, 1, 0.4, 0.0, 0.0, 0.6666666666666666, 0.0, 1.0]
+1 - statistics.mean(all_f_score) 0.41841269841269846
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 0.0, 0.5, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 0.6666666666666666, 0.0, 0.0, 0.0]
+1 - statistics.mean(all_f_score) 0.7222222222222222
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk' due to [FlowDroid] ERROR
+all_f_score [0, 0, 0, 0, 0, 0, 0.3333333333333333, 0, 1, 0, 0.0, 0, 0, 0, 0]
+1 - statistics.mean(all_f_score) 0.9111111111111111
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk' due to timeout.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 0, 0.5, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 1.0, 0.0, 1.0, 0.0]
+1 - statistics.mean(all_f_score) 0.6333333333333333
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [1.0, 1.0, 0.0, 0.8571428571428571, 0.8, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+1 - statistics.mean(all_f_score) 0.6228571428571428
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 1.0, 0.5, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 1.0, 0.0, 1.0, 0.0]
+1 - statistics.mean(all_f_score) 0.5666666666666667
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk' due to timeout.
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk' due to timeout.
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk' due to timeout.
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk' due to timeout.
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk' due to timeout.
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk' due to timeout.
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk' due to timeout.
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk' due to timeout.
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk' due to timeout.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk' due to timeout.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk' due to timeout.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk' due to timeout.
+all_f_score [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.5, 0, 0.5, 0, 1.0, 0]
+1 - statistics.mean(all_f_score) 0.8666666666666667
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 0.0, 0, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 0.0, 0.0, 0.0, 0.0]
+1 - statistics.mean(all_f_score) 0.8
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [1.0, 1.0, 1.0, 0.5, 0.8, 0.8, 0.3333333333333333, 1.0, 1, 0.4, 0.0, 1.0, 0.6666666666666666, 1.0, 1.0]
+1 - statistics.mean(all_f_score) 0.23333333333333328
+[INFO][abstract_intensifier.py:596] Added config a7f05a and rejected config 64df66 as incumbent because it is not better than the incumbents on 1 instances: 
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 1.0, 0.5, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 1.0, 0.0, 1.0, 0.0]
+1 - statistics.mean(all_f_score) 0.5666666666666667
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk' due to [FlowDroid] ERROR
+all_f_score [0, 0, 0.0, 0, 0, 0, 0.0, 0, 1, 0, 0.0, 0.0, 0, 0.0, 0]
+1 - statistics.mean(all_f_score) 0.9333333333333333
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk' due to timeout.
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk' due to timeout.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk' due to timeout.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk' due to timeout.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 0, 0, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 0, 0.0, 0, 0.0]
+1 - statistics.mean(all_f_score) 0.8
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [1.0, 1.0, 1.0, 0.8571428571428571, 1.0, 0.0, 0.3333333333333333, 1.0, 1, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]
+1 - statistics.mean(all_f_score) 0.453968253968254
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 0.0, 0.5, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 0.0, 0.0, 0.0, 0.0]
+1 - statistics.mean(all_f_score) 0.7666666666666666
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk' due to [FlowDroid] ERROR
+all_f_score [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+1 - statistics.mean(all_f_score) 1
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk' due to timeout.
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 0, 0, 0, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 0, 0.0, 0, 0.0]
+1 - statistics.mean(all_f_score) 0.8666666666666667
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [1.0, 1.0, 0.0, 0.8571428571428571, 1.0, 1.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 0.6666666666666666, 0.0, 1.0]
+1 - statistics.mean(all_f_score) 0.43174603174603177
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 0.0, 0.5, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 0.0, 0.0, 0.0, 0.0]
+1 - statistics.mean(all_f_score) 0.7666666666666666
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk' due to [FlowDroid] ERROR
+all_f_score [0, 1.0, 0, 0, 0, 0, 0.3333333333333333, 0, 1, 0, 0.0, 0, 0, 0, 0]
+1 - statistics.mean(all_f_score) 0.8444444444444444
+Traceback (most recent call last):
+  File "/local/ljubarah/.venv/lib/python3.11/site-packages/smac/facade/abstract_facade.py", line 322, in optimize
+    incumbents = self._optimizer.optimize(data_to_scatter=data_to_scatter)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/local/ljubarah/.venv/lib/python3.11/site-packages/smac/main/smbo.py", line 317, in optimize
+    self._add_results()
+  File "/local/ljubarah/.venv/lib/python3.11/site-packages/smac/main/smbo.py", line 441, in _add_results
+    self.tell(trial_info, trial_value)
+  File "/local/ljubarah/.venv/lib/python3.11/site-packages/smac/main/smbo.py", line 236, in tell
+    self.save()
+  File "/local/ljubarah/.venv/lib/python3.11/site-packages/smac/main/smbo.py", line 427, in save
+    with open(str(path / "optimization.json"), "w") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'smac3_output/d511514456b75534b371c9ccd410d9a4/1/optimization.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/local/ljubarah/Callbacks.py", line 405, in <module>
+    incumbent = smac.optimize()  # define what to do i.e. optimize the cost
+                ^^^^^^^^^^^^^^^
+  File "/local/ljubarah/.venv/lib/python3.11/site-packages/smac/facade/abstract_facade.py", line 324, in optimize
+    self._optimizer.save()
+  File "/local/ljubarah/.venv/lib/python3.11/site-packages/smac/main/smbo.py", line 427, in save
+    with open(str(path / "optimization.json"), "w") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'smac3_output/d511514456b75534b371c9ccd410d9a4/1/optimization.json'
+(.venv) ljubarah@sse-vm-leen:~$ ls 
+Callbacks.py        EmulatorDetection.py  Java     old              path       smac3_output
+DroidBench-develop  FlowDroid-2.14.1      my-venv  Output_01_07_25  platforms  Users
+(.venv) ljubarah@sse-vm-leen:~$ python3 Callbacks.py 
+[INFO][abstract_initial_design.py:87] Reducing the number of initial configurations from 110 to 62 (max_ratio == 0.25).
+[INFO][abstract_initial_design.py:139] Using 62 initial design configurations and 0 additional configurations.
+[INFO][abstract_intensifier.py:307] Using only one seed for deterministic scenario.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 1.0, 0.5, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 1.0, 0.0, 1.0, 0.0]
+1 - statistics.mean(all_f_score) 0.5666666666666667
+[INFO][abstract_intensifier.py:517] Added config 710c25 as new incumbent because there are no incumbents yet.
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk' due to [FlowDroid] ERROR
+all_f_score [0, 1.0, 0.0, 0, 0, 0, 0.0, 0, 1, 0, 0.0, 0.0, 0, 0.0, 0]
+1 - statistics.mean(all_f_score) 0.8666666666666667
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 1.0, 0.4444444444444444, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 1.0, 0.0, 1.0, 0.0]
+1 - statistics.mean(all_f_score) 0.5703703703703704
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [1.0, 1.0, 1.0, 0.8333333333333334, 0.8, 0.0, 0.3333333333333333, 1.0, 1, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0]
+1 - statistics.mean(all_f_score) 0.40222222222222226
+[INFO][abstract_intensifier.py:596] Added config 64df66 and rejected config 710c25 as incumbent because it is not better than the incumbents on 1 instances: 
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 1.0, 0.5, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 1.0, 0.0, 1.0, 0.0]
+1 - statistics.mean(all_f_score) 0.5666666666666667
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk' due to timeout.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk' due to timeout.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk' due to timeout.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 1.0, 0, 0.75, 0, 0.3333333333333333, 0.0, 0, 0.5, 0.0, 1.0, 0.0, 1.0, 0.8]
+1 - statistics.mean(all_f_score) 0.5744444444444444
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 0, 0, 0, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 0, 0.0, 0, 0.0]
+1 - statistics.mean(all_f_score) 0.8666666666666667
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [1.0, 1.0, 0.0, 1.0, 0.8, 0.8, 0.0, 1.0, 1, 0.2857142857142857, 0.0, 0.0, 0.6666666666666666, 0.0, 1.0]
+1 - statistics.mean(all_f_score) 0.4298412698412698
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 0.0, 0.5, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 0.6666666666666666, 0.0, 0.0, 0.0]
+1 - statistics.mean(all_f_score) 0.7222222222222222
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk' due to [FlowDroid] ERROR
+all_f_score [0, 0, 0, 0, 0, 0, 0.3333333333333333, 0, 1, 0, 0.0, 0, 0, 0, 0]
+1 - statistics.mean(all_f_score) 0.9111111111111111
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 1.0, 0.5, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 1.0, 0.0, 1.0, 0.0]
+1 - statistics.mean(all_f_score) 0.5666666666666667
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [1.0, 1.0, 0.0, 0.5, 0.8571428571428571, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+1 - statistics.mean(all_f_score) 0.6428571428571428
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 1.0, 0.5, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 1.0, 0.0, 1.0, 0.0]
+1 - statistics.mean(all_f_score) 0.5666666666666667
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 1.0, 0.5454545454545454, 0.75, 0.75, 0.3333333333333333, 0.0, 0.0, 0.5, 0.0, 0.5, 0.0, 1.0, 0.8]
+1 - statistics.mean(all_f_score) 0.5214141414141414
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 0.0, 0, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 0.0, 0.0, 0.0, 0.0]
+1 - statistics.mean(all_f_score) 0.8
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [1.0, 1.0, 1.0, 0.5, 0.8, 0.8, 0.3333333333333333, 1.0, 1, 0.4, 0.0, 1.0, 0.6666666666666666, 1.0, 1.0]
+1 - statistics.mean(all_f_score) 0.23333333333333328
+[INFO][abstract_intensifier.py:596] Added config a7f05a and rejected config 64df66 as incumbent because it is not better than the incumbents on 1 instances: 
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 1.0, 0.5, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 1.0, 0.0, 1.0, 0.0]
+1 - statistics.mean(all_f_score) 0.5666666666666667
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk' due to [FlowDroid] ERROR
+all_f_score [0, 0, 0.0, 0, 0, 0, 0.0, 0, 1, 0, 0.0, 0.0, 0, 0.0, 0]
+1 - statistics.mean(all_f_score) 0.9333333333333333
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk' due to timeout.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk' due to timeout.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 1.0, 0, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 0, 0.0, 1.0, 0.0]
+1 - statistics.mean(all_f_score) 0.6666666666666667
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [1.0, 1.0, 1.0, 0.8571428571428571, 1.0, 0.0, 0.3333333333333333, 1.0, 1, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]
+1 - statistics.mean(all_f_score) 0.453968253968254
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 0.0, 0.5, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 0.0, 0.0, 0.0, 0.0]
+1 - statistics.mean(all_f_score) 0.7666666666666666
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk' due to [FlowDroid] ERROR
+all_f_score [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+1 - statistics.mean(all_f_score) 1
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 0, 0, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 0, 0.0, 0, 0.0]
+1 - statistics.mean(all_f_score) 0.8
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [1.0, 1.0, 0.0, 0.8571428571428571, 1.0, 1.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 0.6666666666666666, 0.0, 1.0]
+1 - statistics.mean(all_f_score) 0.43174603174603177
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 0.0, 0.5, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 0.0, 0.0, 0.0, 0.0]
+1 - statistics.mean(all_f_score) 0.7666666666666666
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk' due to [FlowDroid] ERROR
+all_f_score [0, 1.0, 0, 0, 0, 0, 0.3333333333333333, 0, 1, 0, 0.0, 0, 0, 0, 0]
+1 - statistics.mean(all_f_score) 0.8444444444444444
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk' due to timeout.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk' due to timeout.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 1.0, 0, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 0, 0.0, 1.0, 0.0]
+1 - statistics.mean(all_f_score) 0.6666666666666667
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [1.0, 1.0, 1.0, 0.8571428571428571, 1.0, 0.0, 0.3333333333333333, 1.0, 1, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]
+1 - statistics.mean(all_f_score) 0.453968253968254
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 1.0, 0.5, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 0.0, 0.0, 1.0, 0.0]
+1 - statistics.mean(all_f_score) 0.6333333333333333
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk' due to timeout.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk' due to timeout.
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk' due to timeout.
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk' due to timeout.
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk' due to timeout.
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk' due to timeout.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk' due to timeout.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk' due to timeout.
+all_f_score [1.0, 1.0, 1.0, 0, 0.8, 0, 0, 0, 0, 0, 0.0, 1.0, 0, 1.0, 0]
+1 - statistics.mean(all_f_score) 0.6133333333333333
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 0, 0.0, 0, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 0.0, 0.0, 0.0, 0.0]
+1 - statistics.mean(all_f_score) 0.8666666666666667
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [1.0, 0.8, 1.0, 0.8571428571428571, 1.0, 1.0, 0.3333333333333333, 0.18181818181818182, 1, 0.0, 0.0, 0.8, 0.6666666666666666, 1.0, 1.0]
+1 - statistics.mean(all_f_score) 0.29073593073593074
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 1.0, 0.5, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 1.0, 0.0, 1.0, 0.0]
+1 - statistics.mean(all_f_score) 0.5666666666666667
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk' due to [FlowDroid] ERROR
+all_f_score [0, 1.0, 0, 0, 0, 0, 0.3333333333333333, 0, 1, 0, 0.0, 0, 0, 0, 0]
+1 - statistics.mean(all_f_score) 0.8444444444444444
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk' due to timeout.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 0.8, 1.0, 0, 0.0, 0.0, 0.0, 0.0, 1, 0.5, 1, 1.0, 0.0, 1.0, 0.0]
+1 - statistics.mean(all_f_score) 0.5800000000000001
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [1.0, 0.8, 1.0, 0.8571428571428571, 1.0, 0.0, 0.3333333333333333, 0.17391304347826086, 1, 0.0, 0.0, 0.5, 0.0, 1.0, 0.0]
+1 - statistics.mean(all_f_score) 0.4890407177363699
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 0.0, 0.5, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 0.0, 0.0, 0.0, 0.0]
+1 - statistics.mean(all_f_score) 0.7666666666666666
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk' due to timeout.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk' due to timeout.
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk' due to timeout.
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk' due to timeout.
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk' due to timeout.
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk' due to timeout.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk' due to timeout.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk' due to timeout.
+all_f_score [1.0, 1.0, 1.0, 0, 0.8, 0, 0, 0, 0, 0, 0.0, 1.0, 0, 1.0, 0]
+1 - statistics.mean(all_f_score) 0.6133333333333333
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 0, 0, 0, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 0, 0.0, 0, 0.0]
+1 - statistics.mean(all_f_score) 0.8666666666666667
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [1.0, 0.8, 1.0, 0.8, 1.0, 1.0, 0.3333333333333333, 0.18181818181818182, 1, 0.0, 0.0, 1.0, 0.6666666666666666, 1.0, 1.0]
+1 - statistics.mean(all_f_score) 0.28121212121212125
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 1.0, 0.5, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 1.0, 0.0, 1.0, 0.0]
+1 - statistics.mean(all_f_score) 0.5666666666666667
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk' due to [FlowDroid] ERROR
+all_f_score [0, 1.0, 0, 0, 0, 0, 0.3333333333333333, 0, 0, 0, 0.0, 0, 0, 0, 0]
+1 - statistics.mean(all_f_score) 0.9111111111111111
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+except-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk' due to timeout.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 1.0, 0, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 1.0, 0.0, 1.0, 0.0]
+1 - statistics.mean(all_f_score) 0.6
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [1.0, 1.0, 0.0, 0.8, 1.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+1 - statistics.mean(all_f_score) 0.6133333333333333
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 1.0, 0.5, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 0.0, 0.0, 1.0, 0.0]
+1 - statistics.mean(all_f_score) 0.6333333333333333
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk' due to [FlowDroid] ERROR
+all_f_score [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+1 - statistics.mean(all_f_score) 1
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [0.0, 1.0, 0.0, 0, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 1, 0.0, 0.0, 0.0, 0.0]
+1 - statistics.mean(all_f_score) 0.8
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.3333333333333333, 1.0, 1, 0.0, 0.0, 1.0, 0.6666666666666666, 1.0, 1.0]
+1 - statistics.mean(all_f_score) 0.19999999999999996
+[INFO][abstract_intensifier.py:596] Added config 28cdb7 and rejected config a7f05a as incumbent because it is not better than the incumbents on 1 instances: 
+[INFO][smbo.py:473] Cost threshold was reached. Abort is requested.
+[INFO][smbo.py:340] Shutting down because the stop flag was set.
+[INFO][abstract_intensifier.py:307] Using only one seed for deterministic scenario.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [1.0, 1.0, 1.0, 0.8571428571428571, 1.0, 0.0, 0.3333333333333333, 1.0, 1, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]
+1 - statistics.mean(all_f_score) 0.453968253968254
+Default configuration: Configuration(values={
+  'aliasalgo': 'NONE',
+  'callbackanalyzer': 'DEFAULT',
+  'callbacksourcemode': 'NONE',
+  'cgalgo': 'CHA',
+  'codeelimination': 'NONE',
+  'dataflowsolver': 'CONTEXTFLOWSENSITIVE',
+  'implicit': 'NONE',
+  'layoutmode': 'NONE',
+  'pathalgo': 'CONTEXTSENSITIVE',
+  'pathreconstructionmode': 'NONE',
+  'staticmode': 'CONTEXTFLOWSENSITIVE',
+})
+Default cost: 0.453968253968254
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MethodOverride1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/AnonymousClass1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/RegisterGlobal1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/MultiHandlers1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Ordering1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Unregister1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/Button4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Callbacks/LocationLeak3.apk'
+all_f_score [1.0, 1.0, 1.0, 0.8571428571428571, 1.0, 1.0, 0.3333333333333333, 1.0, 1, 0.0, 0.0, 1.0, 0.6666666666666666, 1.0, 1.0]
+1 - statistics.mean(all_f_score) 0.20952380952380956
+Incumbent configuration: Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'callbackanalyzer': np.str_('DEFAULT'),
+  'callbacksourcemode': np.str_('SOURCELIST'),
+  'cgalgo': np.str_('AUTO'),
+  'codeelimination': np.str_('PROPAGATECONSTS'),
+  'dataflowsolver': np.str_('CONTEXTFLOWSENSITIVE'),
+  'implicit': np.str_('ALL'),
+  'layoutmode': np.str_('ALL'),
+  'pathalgo': np.str_('CONTEXTINSENSITIVE'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+  'staticmode': np.str_('CONTEXTFLOWSENSITIVE'),
+})
+Optimal cost: 0.20952380952380956
+
+Runhistory:
+------------------------
+configuration_id= 1
+configuration = Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('SOURCELIST'),
+  'cgalgo': np.str_('GEOM'),
+  'codeelimination': np.str_('NONE'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('ALL'),
+  'layoutmode': np.str_('PWD'),
+  'pathalgo': np.str_('CONTEXTSENSITIVE'),
+  'pathreconstructionmode': np.str_('NONE'),
+  'staticmode': np.str_('CONTEXTFLOWSENSITIVE'),
+})
+cost = 0.5666666666666667
+------------------------
+------------------------
+configuration_id= 2
+configuration = Configuration(values={
+  'aliasalgo': np.str_('PTSBASED'),
+  'callbackanalyzer': np.str_('DEFAULT'),
+  'callbacksourcemode': np.str_('NONE'),
+  'cgalgo': np.str_('VTA'),
+  'codeelimination': np.str_('PROPAGATECONSTS'),
+  'dataflowsolver': np.str_('CONTEXTFLOWSENSITIVE'),
+  'implicit': np.str_('NONE'),
+  'layoutmode': np.str_('PWD'),
+  'pathalgo': np.str_('CONTEXTINSENSITIVE'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+  'staticmode': np.str_('NONE'),
+})
+cost = 0.8666666666666667
+------------------------
+------------------------
+configuration_id= 3
+configuration = Configuration(values={
+  'aliasalgo': np.str_('LAZY'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('SOURCELIST'),
+  'cgalgo': np.str_('RTA'),
+  'codeelimination': np.str_('REMOVECODE'),
+  'dataflowsolver': np.str_('CONTEXTFLOWSENSITIVE'),
+  'implicit': np.str_('ALL'),
+  'layoutmode': np.str_('ALL'),
+  'pathalgo': np.str_('SOURCESONLY'),
+  'pathreconstructionmode': np.str_('FAST'),
+  'staticmode': np.str_('CONTEXTFLOWINSENSITIVE'),
+})
+cost = 0.5703703703703704
+------------------------
+------------------------
+configuration_id= 4
+configuration = Configuration(values={
+  'aliasalgo': np.str_('NONE'),
+  'callbackanalyzer': np.str_('DEFAULT'),
+  'callbacksourcemode': np.str_('NONE'),
+  'cgalgo': np.str_('AUTO'),
+  'codeelimination': np.str_('PROPAGATECONSTS'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('ARRAYONLY'),
+  'layoutmode': np.str_('NONE'),
+  'pathalgo': np.str_('CONTEXTINSENSITIVE'),
+  'pathreconstructionmode': np.str_('NONE'),
+  'staticmode': np.str_('CONTEXTFLOWSENSITIVE'),
+})
+cost = 0.40222222222222226
+------------------------
+------------------------
+configuration_id= 5
+configuration = Configuration(values={
+  'aliasalgo': np.str_('NONE'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('NONE'),
+  'cgalgo': np.str_('CHA'),
+  'codeelimination': np.str_('NONE'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('ALL'),
+  'layoutmode': np.str_('ALL'),
+  'pathalgo': np.str_('SOURCESONLY'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+  'staticmode': np.str_('CONTEXTFLOWINSENSITIVE'),
+})
+cost = 0.5666666666666667
+------------------------
+------------------------
+configuration_id= 6
+configuration = Configuration(values={
+  'aliasalgo': np.str_('LAZY'),
+  'callbackanalyzer': np.str_('DEFAULT'),
+  'callbacksourcemode': np.str_('SOURCELIST'),
+  'cgalgo': np.str_('RTA'),
+  'codeelimination': np.str_('REMOVECODE'),
+  'dataflowsolver': np.str_('CONTEXTFLOWSENSITIVE'),
+  'implicit': np.str_('ARRAYONLY'),
+  'layoutmode': np.str_('NONE'),
+  'pathalgo': np.str_('CONTEXTSENSITIVE'),
+  'pathreconstructionmode': np.str_('NONE'),
+  'staticmode': np.str_('CONTEXTFLOWSENSITIVE'),
+})
+cost = 0.5744444444444444
+------------------------
+------------------------
+configuration_id= 7
+configuration = Configuration(values={
+  'aliasalgo': np.str_('PTSBASED'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('ALL'),
+  'cgalgo': np.str_('VTA'),
+  'codeelimination': np.str_('REMOVECODE'),
+  'dataflowsolver': np.str_('CONTEXTFLOWSENSITIVE'),
+  'implicit': np.str_('ARRAYONLY'),
+  'layoutmode': np.str_('NONE'),
+  'pathalgo': np.str_('CONTEXTSENSITIVE'),
+  'pathreconstructionmode': np.str_('FAST'),
+  'staticmode': np.str_('CONTEXTFLOWINSENSITIVE'),
+})
+cost = 0.8666666666666667
+------------------------
+------------------------
+configuration_id= 8
+configuration = Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'callbackanalyzer': np.str_('DEFAULT'),
+  'callbacksourcemode': np.str_('ALL'),
+  'cgalgo': np.str_('SPARK'),
+  'codeelimination': np.str_('NONE'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('NONE'),
+  'layoutmode': np.str_('PWD'),
+  'pathalgo': np.str_('CONTEXTINSENSITIVE'),
+  'pathreconstructionmode': np.str_('FAST'),
+  'staticmode': np.str_('NONE'),
+})
+cost = 0.4298412698412698
+------------------------
+------------------------
+configuration_id= 9
+configuration = Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('ALL'),
+  'cgalgo': np.str_('RTA'),
+  'codeelimination': np.str_('PROPAGATECONSTS'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('ALL'),
+  'layoutmode': np.str_('ALL'),
+  'pathalgo': np.str_('SOURCESONLY'),
+  'pathreconstructionmode': np.str_('NONE'),
+  'staticmode': np.str_('NONE'),
+})
+cost = 0.7222222222222222
+------------------------
+------------------------
+configuration_id= 10
+configuration = Configuration(values={
+  'aliasalgo': np.str_('PTSBASED'),
+  'callbackanalyzer': np.str_('DEFAULT'),
+  'callbacksourcemode': np.str_('ALL'),
+  'cgalgo': np.str_('AUTO'),
+  'codeelimination': np.str_('NONE'),
+  'dataflowsolver': np.str_('CONTEXTFLOWSENSITIVE'),
+  'implicit': np.str_('ARRAYONLY'),
+  'layoutmode': np.str_('NONE'),
+  'pathalgo': np.str_('CONTEXTINSENSITIVE'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+  'staticmode': np.str_('CONTEXTFLOWINSENSITIVE'),
+})
+cost = 0.9111111111111111
+------------------------
+------------------------
+configuration_id= 11
+configuration = Configuration(values={
+  'aliasalgo': np.str_('LAZY'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('NONE'),
+  'cgalgo': np.str_('GEOM'),
+  'codeelimination': np.str_('PROPAGATECONSTS'),
+  'dataflowsolver': np.str_('CONTEXTFLOWSENSITIVE'),
+  'implicit': np.str_('ARRAYONLY'),
+  'layoutmode': np.str_('PWD'),
+  'pathalgo': np.str_('CONTEXTSENSITIVE'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+  'staticmode': np.str_('CONTEXTFLOWSENSITIVE'),
+})
+cost = 0.5666666666666667
+------------------------
+------------------------
+configuration_id= 12
+configuration = Configuration(values={
+  'aliasalgo': np.str_('NONE'),
+  'callbackanalyzer': np.str_('DEFAULT'),
+  'callbacksourcemode': np.str_('SOURCELIST'),
+  'cgalgo': np.str_('VTA'),
+  'codeelimination': np.str_('REMOVECODE'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('NONE'),
+  'layoutmode': np.str_('PWD'),
+  'pathalgo': np.str_('CONTEXTINSENSITIVE'),
+  'pathreconstructionmode': np.str_('NONE'),
+  'staticmode': np.str_('NONE'),
+})
+cost = 0.6428571428571428
+------------------------
+------------------------
+configuration_id= 13
+configuration = Configuration(values={
+  'aliasalgo': np.str_('NONE'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('ALL'),
+  'cgalgo': np.str_('CHA'),
+  'codeelimination': np.str_('REMOVECODE'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('ARRAYONLY'),
+  'layoutmode': np.str_('PWD'),
+  'pathalgo': np.str_('CONTEXTSENSITIVE'),
+  'pathreconstructionmode': np.str_('FAST'),
+  'staticmode': np.str_('CONTEXTFLOWSENSITIVE'),
+})
+cost = 0.5666666666666667
+------------------------
+------------------------
+configuration_id= 14
+configuration = Configuration(values={
+  'aliasalgo': np.str_('LAZY'),
+  'callbackanalyzer': np.str_('DEFAULT'),
+  'callbacksourcemode': np.str_('ALL'),
+  'cgalgo': np.str_('GEOM'),
+  'codeelimination': np.str_('PROPAGATECONSTS'),
+  'dataflowsolver': np.str_('CONTEXTFLOWSENSITIVE'),
+  'implicit': np.str_('NONE'),
+  'layoutmode': np.str_('ALL'),
+  'pathalgo': np.str_('SOURCESONLY'),
+  'pathreconstructionmode': np.str_('FAST'),
+  'staticmode': np.str_('CONTEXTFLOWINSENSITIVE'),
+})
+cost = 0.5214141414141414
+------------------------
+------------------------
+configuration_id= 15
+configuration = Configuration(values={
+  'aliasalgo': np.str_('PTSBASED'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('SOURCELIST'),
+  'cgalgo': np.str_('AUTO'),
+  'codeelimination': np.str_('NONE'),
+  'dataflowsolver': np.str_('CONTEXTFLOWSENSITIVE'),
+  'implicit': np.str_('ALL'),
+  'layoutmode': np.str_('ALL'),
+  'pathalgo': np.str_('SOURCESONLY'),
+  'pathreconstructionmode': np.str_('NONE'),
+  'staticmode': np.str_('NONE'),
+})
+cost = 0.8
+------------------------
+------------------------
+configuration_id= 16
+configuration = Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'callbackanalyzer': np.str_('DEFAULT'),
+  'callbacksourcemode': np.str_('NONE'),
+  'cgalgo': np.str_('SPARK'),
+  'codeelimination': np.str_('REMOVECODE'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('NONE'),
+  'layoutmode': np.str_('NONE'),
+  'pathalgo': np.str_('CONTEXTINSENSITIVE'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+  'staticmode': np.str_('CONTEXTFLOWSENSITIVE'),
+})
+cost = 0.23333333333333328
+------------------------
+------------------------
+configuration_id= 17
+configuration = Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('ALL'),
+  'cgalgo': np.str_('VTA'),
+  'codeelimination': np.str_('PROPAGATECONSTS'),
+  'dataflowsolver': np.str_('CONTEXTFLOWSENSITIVE'),
+  'implicit': np.str_('NONE'),
+  'layoutmode': np.str_('ALL'),
+  'pathalgo': np.str_('CONTEXTSENSITIVE'),
+  'pathreconstructionmode': np.str_('NONE'),
+  'staticmode': np.str_('CONTEXTFLOWSENSITIVE'),
+})
+cost = 0.5666666666666667
+------------------------
+------------------------
+configuration_id= 18
+configuration = Configuration(values={
+  'aliasalgo': np.str_('PTSBASED'),
+  'callbackanalyzer': np.str_('DEFAULT'),
+  'callbacksourcemode': np.str_('ALL'),
+  'cgalgo': np.str_('SPARK'),
+  'codeelimination': np.str_('REMOVECODE'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('ALL'),
+  'layoutmode': np.str_('NONE'),
+  'pathalgo': np.str_('SOURCESONLY'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+  'staticmode': np.str_('NONE'),
+})
+cost = 0.9333333333333333
+------------------------
+------------------------
+configuration_id= 19
+configuration = Configuration(values={
+  'aliasalgo': np.str_('LAZY'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('SOURCELIST'),
+  'cgalgo': np.str_('CHA'),
+  'codeelimination': np.str_('PROPAGATECONSTS'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('NONE'),
+  'layoutmode': np.str_('PWD'),
+  'pathalgo': np.str_('CONTEXTINSENSITIVE'),
+  'pathreconstructionmode': np.str_('FAST'),
+  'staticmode': np.str_('CONTEXTFLOWINSENSITIVE'),
+})
+cost = 0.6666666666666667
+------------------------
+------------------------
+configuration_id= 20
+configuration = Configuration(values={
+  'aliasalgo': np.str_('NONE'),
+  'callbackanalyzer': np.str_('DEFAULT'),
+  'callbacksourcemode': np.str_('NONE'),
+  'cgalgo': np.str_('RTA'),
+  'codeelimination': np.str_('NONE'),
+  'dataflowsolver': np.str_('CONTEXTFLOWSENSITIVE'),
+  'implicit': np.str_('ALL'),
+  'layoutmode': np.str_('ALL'),
+  'pathalgo': np.str_('CONTEXTSENSITIVE'),
+  'pathreconstructionmode': np.str_('FAST'),
+  'staticmode': np.str_('CONTEXTFLOWSENSITIVE'),
+})
+cost = 0.453968253968254
+------------------------
+------------------------
+configuration_id= 21
+configuration = Configuration(values={
+  'aliasalgo': np.str_('NONE'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('NONE'),
+  'cgalgo': np.str_('SPARK'),
+  'codeelimination': np.str_('NONE'),
+  'dataflowsolver': np.str_('CONTEXTFLOWSENSITIVE'),
+  'implicit': np.str_('ARRAYONLY'),
+  'layoutmode': np.str_('PWD'),
+  'pathalgo': np.str_('SOURCESONLY'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+  'staticmode': np.str_('NONE'),
+})
+cost = 0.7666666666666666
+------------------------
+------------------------
+configuration_id= 22
+configuration = Configuration(values={
+  'aliasalgo': np.str_('LAZY'),
+  'callbackanalyzer': np.str_('DEFAULT'),
+  'callbacksourcemode': np.str_('SOURCELIST'),
+  'cgalgo': np.str_('AUTO'),
+  'codeelimination': np.str_('REMOVECODE'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('ALL'),
+  'layoutmode': np.str_('PWD'),
+  'pathalgo': np.str_('CONTEXTSENSITIVE'),
+  'pathreconstructionmode': np.str_('NONE'),
+  'staticmode': np.str_('CONTEXTFLOWSENSITIVE'),
+})
+cost = 1.0
+------------------------
+------------------------
+configuration_id= 23
+configuration = Configuration(values={
+  'aliasalgo': np.str_('PTSBASED'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('NONE'),
+  'cgalgo': np.str_('GEOM'),
+  'codeelimination': np.str_('REMOVECODE'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('NONE'),
+  'layoutmode': np.str_('ALL'),
+  'pathalgo': np.str_('CONTEXTINSENSITIVE'),
+  'pathreconstructionmode': np.str_('FAST'),
+  'staticmode': np.str_('CONTEXTFLOWINSENSITIVE'),
+})
+cost = 0.8
+------------------------
+------------------------
+configuration_id= 24
+configuration = Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'callbackanalyzer': np.str_('DEFAULT'),
+  'callbacksourcemode': np.str_('SOURCELIST'),
+  'cgalgo': np.str_('CHA'),
+  'codeelimination': np.str_('NONE'),
+  'dataflowsolver': np.str_('CONTEXTFLOWSENSITIVE'),
+  'implicit': np.str_('ARRAYONLY'),
+  'layoutmode': np.str_('NONE'),
+  'pathalgo': np.str_('SOURCESONLY'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+  'staticmode': np.str_('NONE'),
+})
+cost = 0.43174603174603177
+------------------------
+------------------------
+configuration_id= 25
+configuration = Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('NONE'),
+  'cgalgo': np.str_('AUTO'),
+  'codeelimination': np.str_('REMOVECODE'),
+  'dataflowsolver': np.str_('CONTEXTFLOWSENSITIVE'),
+  'implicit': np.str_('ARRAYONLY'),
+  'layoutmode': np.str_('NONE'),
+  'pathalgo': np.str_('SOURCESONLY'),
+  'pathreconstructionmode': np.str_('FAST'),
+  'staticmode': np.str_('NONE'),
+})
+cost = 0.7666666666666666
+------------------------
+------------------------
+configuration_id= 26
+configuration = Configuration(values={
+  'aliasalgo': np.str_('PTSBASED'),
+  'callbackanalyzer': np.str_('DEFAULT'),
+  'callbacksourcemode': np.str_('SOURCELIST'),
+  'cgalgo': np.str_('SPARK'),
+  'codeelimination': np.str_('PROPAGATECONSTS'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('ALL'),
+  'layoutmode': np.str_('PWD'),
+  'pathalgo': np.str_('CONTEXTSENSITIVE'),
+  'pathreconstructionmode': np.str_('FAST'),
+  'staticmode': np.str_('CONTEXTFLOWINSENSITIVE'),
+})
+cost = 0.8444444444444444
+------------------------
+------------------------
+configuration_id= 27
+configuration = Configuration(values={
+  'aliasalgo': np.str_('LAZY'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('NONE'),
+  'cgalgo': np.str_('CHA'),
+  'codeelimination': np.str_('NONE'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('NONE'),
+  'layoutmode': np.str_('ALL'),
+  'pathalgo': np.str_('CONTEXTINSENSITIVE'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+  'staticmode': np.str_('CONTEXTFLOWSENSITIVE'),
+})
+cost = 0.6666666666666667
+------------------------
+------------------------
+configuration_id= 28
+configuration = Configuration(values={
+  'aliasalgo': np.str_('NONE'),
+  'callbackanalyzer': np.str_('DEFAULT'),
+  'callbacksourcemode': np.str_('SOURCELIST'),
+  'cgalgo': np.str_('GEOM'),
+  'codeelimination': np.str_('PROPAGATECONSTS'),
+  'dataflowsolver': np.str_('CONTEXTFLOWSENSITIVE'),
+  'implicit': np.str_('ARRAYONLY'),
+  'layoutmode': np.str_('NONE'),
+  'pathalgo': np.str_('SOURCESONLY'),
+  'pathreconstructionmode': np.str_('NONE'),
+  'staticmode': np.str_('CONTEXTFLOWINSENSITIVE'),
+})
+cost = 0.453968253968254
+------------------------
+------------------------
+configuration_id= 29
+configuration = Configuration(values={
+  'aliasalgo': np.str_('NONE'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('SOURCELIST'),
+  'cgalgo': np.str_('GEOM'),
+  'codeelimination': np.str_('PROPAGATECONSTS'),
+  'dataflowsolver': np.str_('CONTEXTFLOWSENSITIVE'),
+  'implicit': np.str_('NONE'),
+  'layoutmode': np.str_('ALL'),
+  'pathalgo': np.str_('CONTEXTSENSITIVE'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+  'staticmode': np.str_('CONTEXTFLOWSENSITIVE'),
+})
+cost = 0.6333333333333333
+------------------------
+------------------------
+configuration_id= 30
+configuration = Configuration(values={
+  'aliasalgo': np.str_('LAZY'),
+  'callbackanalyzer': np.str_('DEFAULT'),
+  'callbacksourcemode': np.str_('NONE'),
+  'cgalgo': np.str_('VTA'),
+  'codeelimination': np.str_('NONE'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('ARRAYONLY'),
+  'layoutmode': np.str_('NONE'),
+  'pathalgo': np.str_('SOURCESONLY'),
+  'pathreconstructionmode': np.str_('NONE'),
+  'staticmode': np.str_('CONTEXTFLOWINSENSITIVE'),
+})
+cost = 0.6133333333333333
+------------------------
+------------------------
+configuration_id= 31
+configuration = Configuration(values={
+  'aliasalgo': np.str_('PTSBASED'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('ALL'),
+  'cgalgo': np.str_('RTA'),
+  'codeelimination': np.str_('NONE'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('NONE'),
+  'layoutmode': np.str_('PWD'),
+  'pathalgo': np.str_('CONTEXTINSENSITIVE'),
+  'pathreconstructionmode': np.str_('NONE'),
+  'staticmode': np.str_('NONE'),
+})
+cost = 0.8666666666666667
+------------------------
+------------------------
+configuration_id= 32
+configuration = Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'callbackanalyzer': np.str_('DEFAULT'),
+  'callbacksourcemode': np.str_('ALL'),
+  'cgalgo': np.str_('CHA'),
+  'codeelimination': np.str_('REMOVECODE'),
+  'dataflowsolver': np.str_('CONTEXTFLOWSENSITIVE'),
+  'implicit': np.str_('ALL'),
+  'layoutmode': np.str_('ALL'),
+  'pathalgo': np.str_('CONTEXTSENSITIVE'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+  'staticmode': np.str_('CONTEXTFLOWINSENSITIVE'),
+})
+cost = 0.29073593073593074
+------------------------
+------------------------
+configuration_id= 33
+configuration = Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('NONE'),
+  'cgalgo': np.str_('CHA'),
+  'codeelimination': np.str_('NONE'),
+  'dataflowsolver': np.str_('CONTEXTFLOWSENSITIVE'),
+  'implicit': np.str_('ARRAYONLY'),
+  'layoutmode': np.str_('PWD'),
+  'pathalgo': np.str_('SOURCESONLY'),
+  'pathreconstructionmode': np.str_('NONE'),
+  'staticmode': np.str_('CONTEXTFLOWSENSITIVE'),
+})
+cost = 0.5666666666666667
+------------------------
+------------------------
+configuration_id= 34
+configuration = Configuration(values={
+  'aliasalgo': np.str_('PTSBASED'),
+  'callbackanalyzer': np.str_('DEFAULT'),
+  'callbacksourcemode': np.str_('SOURCELIST'),
+  'cgalgo': np.str_('GEOM'),
+  'codeelimination': np.str_('REMOVECODE'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('ALL'),
+  'layoutmode': np.str_('NONE'),
+  'pathalgo': np.str_('CONTEXTSENSITIVE'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+  'staticmode': np.str_('CONTEXTFLOWINSENSITIVE'),
+})
+cost = 0.8444444444444444
+------------------------
+------------------------
+configuration_id= 35
+configuration = Configuration(values={
+  'aliasalgo': np.str_('LAZY'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('ALL'),
+  'cgalgo': np.str_('AUTO'),
+  'codeelimination': np.str_('REMOVECODE'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('NONE'),
+  'layoutmode': np.str_('NONE'),
+  'pathalgo': np.str_('CONTEXTSENSITIVE'),
+  'pathreconstructionmode': np.str_('FAST'),
+  'staticmode': np.str_('NONE'),
+})
+cost = 0.5800000000000001
+------------------------
+------------------------
+configuration_id= 36
+configuration = Configuration(values={
+  'aliasalgo': np.str_('NONE'),
+  'callbackanalyzer': np.str_('DEFAULT'),
+  'callbacksourcemode': np.str_('ALL'),
+  'cgalgo': np.str_('RTA'),
+  'codeelimination': np.str_('NONE'),
+  'dataflowsolver': np.str_('CONTEXTFLOWSENSITIVE'),
+  'implicit': np.str_('ALL'),
+  'layoutmode': np.str_('ALL'),
+  'pathalgo': np.str_('CONTEXTINSENSITIVE'),
+  'pathreconstructionmode': np.str_('FAST'),
+  'staticmode': np.str_('CONTEXTFLOWINSENSITIVE'),
+})
+cost = 0.4890407177363699
+------------------------
+------------------------
+configuration_id= 37
+configuration = Configuration(values={
+  'aliasalgo': np.str_('NONE'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('SOURCELIST'),
+  'cgalgo': np.str_('RTA'),
+  'codeelimination': np.str_('PROPAGATECONSTS'),
+  'dataflowsolver': np.str_('CONTEXTFLOWSENSITIVE'),
+  'implicit': np.str_('NONE'),
+  'layoutmode': np.str_('NONE'),
+  'pathalgo': np.str_('CONTEXTSENSITIVE'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+  'staticmode': np.str_('NONE'),
+})
+cost = 0.7666666666666666
+------------------------
+------------------------
+configuration_id= 38
+configuration = Configuration(values={
+  'aliasalgo': np.str_('LAZY'),
+  'callbackanalyzer': np.str_('DEFAULT'),
+  'callbacksourcemode': np.str_('NONE'),
+  'cgalgo': np.str_('CHA'),
+  'codeelimination': np.str_('REMOVECODE'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('ARRAYONLY'),
+  'layoutmode': np.str_('ALL'),
+  'pathalgo': np.str_('SOURCESONLY'),
+  'pathreconstructionmode': np.str_('NONE'),
+  'staticmode': np.str_('CONTEXTFLOWINSENSITIVE'),
+})
+cost = 0.6133333333333333
+------------------------
+------------------------
+configuration_id= 39
+configuration = Configuration(values={
+  'aliasalgo': np.str_('PTSBASED'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('ALL'),
+  'cgalgo': np.str_('SPARK'),
+  'codeelimination': np.str_('PROPAGATECONSTS'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('ARRAYONLY'),
+  'layoutmode': np.str_('PWD'),
+  'pathalgo': np.str_('SOURCESONLY'),
+  'pathreconstructionmode': np.str_('FAST'),
+  'staticmode': np.str_('CONTEXTFLOWSENSITIVE'),
+})
+cost = 0.8666666666666667
+------------------------
+------------------------
+configuration_id= 40
+configuration = Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'callbackanalyzer': np.str_('DEFAULT'),
+  'callbacksourcemode': np.str_('ALL'),
+  'cgalgo': np.str_('VTA'),
+  'codeelimination': np.str_('NONE'),
+  'dataflowsolver': np.str_('CONTEXTFLOWSENSITIVE'),
+  'implicit': np.str_('ALL'),
+  'layoutmode': np.str_('PWD'),
+  'pathalgo': np.str_('CONTEXTINSENSITIVE'),
+  'pathreconstructionmode': np.str_('FAST'),
+  'staticmode': np.str_('CONTEXTFLOWINSENSITIVE'),
+})
+cost = 0.28121212121212125
+------------------------
+------------------------
+configuration_id= 41
+configuration = Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('SOURCELIST'),
+  'cgalgo': np.str_('CHA'),
+  'codeelimination': np.str_('PROPAGATECONSTS'),
+  'dataflowsolver': np.str_('CONTEXTFLOWSENSITIVE'),
+  'implicit': np.str_('NONE'),
+  'layoutmode': np.str_('NONE'),
+  'pathalgo': np.str_('CONTEXTSENSITIVE'),
+  'pathreconstructionmode': np.str_('NONE'),
+  'staticmode': np.str_('CONTEXTFLOWINSENSITIVE'),
+})
+cost = 0.5666666666666667
+------------------------
+------------------------
+configuration_id= 42
+configuration = Configuration(values={
+  'aliasalgo': np.str_('PTSBASED'),
+  'callbackanalyzer': np.str_('DEFAULT'),
+  'callbacksourcemode': np.str_('NONE'),
+  'cgalgo': np.str_('RTA'),
+  'codeelimination': np.str_('NONE'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('ARRAYONLY'),
+  'layoutmode': np.str_('ALL'),
+  'pathalgo': np.str_('SOURCESONLY'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+  'staticmode': np.str_('CONTEXTFLOWSENSITIVE'),
+})
+cost = 0.9111111111111111
+------------------------
+------------------------
+configuration_id= 43
+configuration = Configuration(values={
+  'aliasalgo': np.str_('LAZY'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('SOURCELIST'),
+  'cgalgo': np.str_('VTA'),
+  'codeelimination': np.str_('PROPAGATECONSTS'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('ARRAYONLY'),
+  'layoutmode': np.str_('ALL'),
+  'pathalgo': np.str_('SOURCESONLY'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+  'staticmode': np.str_('CONTEXTFLOWSENSITIVE'),
+})
+cost = 0.6
+------------------------
+------------------------
+configuration_id= 44
+configuration = Configuration(values={
+  'aliasalgo': np.str_('NONE'),
+  'callbackanalyzer': np.str_('DEFAULT'),
+  'callbacksourcemode': np.str_('NONE'),
+  'cgalgo': np.str_('SPARK'),
+  'codeelimination': np.str_('REMOVECODE'),
+  'dataflowsolver': np.str_('CONTEXTFLOWSENSITIVE'),
+  'implicit': np.str_('ALL'),
+  'layoutmode': np.str_('PWD'),
+  'pathalgo': np.str_('CONTEXTINSENSITIVE'),
+  'pathreconstructionmode': np.str_('NONE'),
+  'staticmode': np.str_('NONE'),
+})
+cost = 0.6133333333333333
+------------------------
+------------------------
+configuration_id= 45
+configuration = Configuration(values={
+  'aliasalgo': np.str_('NONE'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('ALL'),
+  'cgalgo': np.str_('GEOM'),
+  'codeelimination': np.str_('REMOVECODE'),
+  'dataflowsolver': np.str_('CONTEXTFLOWSENSITIVE'),
+  'implicit': np.str_('NONE'),
+  'layoutmode': np.str_('PWD'),
+  'pathalgo': np.str_('SOURCESONLY'),
+  'pathreconstructionmode': np.str_('FAST'),
+  'staticmode': np.str_('CONTEXTFLOWINSENSITIVE'),
+})
+cost = 0.6333333333333333
+------------------------
+------------------------
+configuration_id= 46
+configuration = Configuration(values={
+  'aliasalgo': np.str_('LAZY'),
+  'callbackanalyzer': np.str_('DEFAULT'),
+  'callbacksourcemode': np.str_('ALL'),
+  'cgalgo': np.str_('CHA'),
+  'codeelimination': np.str_('PROPAGATECONSTS'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('ALL'),
+  'layoutmode': np.str_('NONE'),
+  'pathalgo': np.str_('CONTEXTSENSITIVE'),
+  'pathreconstructionmode': np.str_('FAST'),
+  'staticmode': np.str_('NONE'),
+})
+cost = 1.0
+------------------------
+------------------------
+configuration_id= 47
+configuration = Configuration(values={
+  'aliasalgo': np.str_('PTSBASED'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('NONE'),
+  'cgalgo': np.str_('SPARK'),
+  'codeelimination': np.str_('NONE'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('NONE'),
+  'layoutmode': np.str_('NONE'),
+  'pathalgo': np.str_('CONTEXTSENSITIVE'),
+  'pathreconstructionmode': np.str_('NONE'),
+  'staticmode': np.str_('NONE'),
+})
+cost = 0.8
+------------------------
+------------------------
+configuration_id= 48
+configuration = Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'callbackanalyzer': np.str_('DEFAULT'),
+  'callbacksourcemode': np.str_('SOURCELIST'),
+  'cgalgo': np.str_('AUTO'),
+  'codeelimination': np.str_('PROPAGATECONSTS'),
+  'dataflowsolver': np.str_('CONTEXTFLOWSENSITIVE'),
+  'implicit': np.str_('ALL'),
+  'layoutmode': np.str_('ALL'),
+  'pathalgo': np.str_('CONTEXTINSENSITIVE'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+  'staticmode': np.str_('CONTEXTFLOWSENSITIVE'),
+})
+cost = 0.19999999999999996
+------------------------
+(.venv) ljubarah@sse-vm-leen:~$ 
