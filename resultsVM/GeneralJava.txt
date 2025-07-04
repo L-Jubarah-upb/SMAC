@@ -1,0 +1,241 @@
+(.venv) ljubarah@sse-vm-leen:~$ exit
+exit
+Connection to sse-vm-leen.cs.upb.de closed.
+(base) ljubarah@lcd-sse-4942-11 ~ % scp /Users/ljubarah/SMAC3/benchmark/src/models/GeneralJava.py ljubarah@smac:~
+(ljubarah@sshgate.cs.upb.de) Password: 
+Enter passphrase for key '/Users/ljubarah/.ssh/smac': 
+GeneralJava.py                                100%   20KB   5.2MB/s   00:00    
+(base) ljubarah@lcd-sse-4942-11 ~ % ssh ljubarah@smac
+(ljubarah@sshgate.cs.upb.de) Password: 
+(ljubarah@sshgate.cs.upb.de) Password: 
+Enter passphrase for key '/Users/ljubarah/.ssh/smac': 
+ljubarah@sse-vm-leen:~$ python3 -m venv .venv
+ljubarah@sse-vm-leen:~$ 
+ljubarah@sse-vm-leen:~$ source .venv/bin/activate
+(.venv) ljubarah@sse-vm-leen:~$ python3 GeneralJ
+python3: can't open file '/local/ljubarah/GeneralJ': [Errno 2] No such file or directory
+(.venv) ljubarah@sse-vm-leen:~$ ls
+Call                GeneralJava.py    old              platforms
+DroidBench-develop  ImplicitFlows.py  Output_01_07_25  smac3_output
+FlowDroid-2.14.1    my-venv           path             Users
+(.venv) ljubarah@sse-vm-leen:~$ rm ImplicitFlows.py 
+(.venv) ljubarah@sse-vm-leen:~$ python3 GeneralJava.py 
+[INFO][abstract_initial_design.py:87] Reducing the number of initial configurations from 110 to 62 (max_ratio == 0.25).
+[INFO][abstract_initial_design.py:139] Using 62 initial design configurations and 0 additional configurations.
+[INFO][abstract_intensifier.py:307] Using only one seed for deterministic scenario.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Exceptions5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/StartProcessWithSecret1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Clone1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/VirtualDispatch3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/VirtualDispatch1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/StaticInitialization1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/StringPatternMatching1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/StaticInitialization3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Exceptions3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/VirtualDispatch4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/VirtualDispatch2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/SourceCodeSpecific1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Serialization1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/StringFormatter1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Loop1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/StringToCharArray1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Exceptions6.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/UnreachableCode.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/StringToOutputStream1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Exceptions7.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Loop2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Exceptions1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Exceptions4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/FactoryMethods1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Exceptions2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/StaticInitialization2.apk'
+all_f_score [0.0, 1.0, 1.0, 1, 0.0, 0.0, 1.0, 0.0, 1.0, 1, 0.6666666666666666, 1.0, 0, 1.0, 1.0, 1.0, 1.0, 1, 0.75, 0.0, 1.0, 1.0, 1.0, 0.8, 1.0, 0.5]
+1 - statistics.mean(all_f_score) 0.28012820512820513
+[INFO][abstract_intensifier.py:517] Added config 710c25 as new incumbent because there are no incumbents yet.
+[INFO][smbo.py:473] Cost threshold was reached. Abort is requested.
+[INFO][smbo.py:340] Shutting down because the stop flag was set.
+[INFO][abstract_intensifier.py:307] Using only one seed for deterministic scenario.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Exceptions5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/StartProcessWithSecret1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Clone1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/VirtualDispatch3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/VirtualDispatch1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/StaticInitialization1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/StringPatternMatching1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/StaticInitialization3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Exceptions3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/VirtualDispatch4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/VirtualDispatch2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/SourceCodeSpecific1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Serialization1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/StringFormatter1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Loop1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/StringToCharArray1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Exceptions6.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/UnreachableCode.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/StringToOutputStream1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Exceptions7.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Loop2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Exceptions1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Exceptions4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/FactoryMethods1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Exceptions2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/StaticInitialization2.apk'
+all_f_score [0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1, 0.6666666666666666, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1, 0.75, 1, 1.0, 1.0, 0.0, 1.0, 1.0, 0.5]
+1 - statistics.mean(all_f_score) 0.3878205128205128
+Default configuration: Configuration(values={
+  'aliasalgo': 'NONE',
+  'callbackanalyzer': 'DEFAULT',
+  'callbacksourcemode': 'NONE',
+  'cgalgo': 'CHA',
+  'codeelimination': 'NONE',
+  'dataflowsolver': 'CONTEXTFLOWSENSITIVE',
+  'implicit': 'NONE',
+  'layoutmode': 'NONE',
+  'pathalgo': 'CONTEXTSENSITIVE',
+  'pathreconstructionmode': 'NONE',
+  'staticmode': 'CONTEXTFLOWSENSITIVE',
+})
+Default cost: 0.3878205128205128
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Exceptions5.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/StartProcessWithSecret1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Clone1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/VirtualDispatch3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/VirtualDispatch1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/StaticInitialization1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/StringPatternMatching1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/StaticInitialization3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Exceptions3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/VirtualDispatch4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/VirtualDispatch2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/SourceCodeSpecific1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Serialization1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/StringFormatter1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Loop1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/StringToCharArray1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Exceptions6.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/UnreachableCode.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/StringToOutputStream1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Exceptions7.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Loop2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Exceptions1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Exceptions4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/FactoryMethods1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/Exceptions2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/GeneralJava/StaticInitialization2.apk'
+all_f_score [0.0, 1.0, 1.0, 1, 0.0, 0.0, 1.0, 0.0, 1.0, 1, 0.6666666666666666, 1.0, 0, 1.0, 1.0, 1.0, 1.0, 1, 0.75, 0.0, 1.0, 1.0, 1.0, 0.8, 1.0, 0.5]
+1 - statistics.mean(all_f_score) 0.28012820512820513
+Incumbent configuration: Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('SOURCELIST'),
+  'cgalgo': np.str_('GEOM'),
+  'codeelimination': np.str_('NONE'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('ALL'),
+  'layoutmode': np.str_('PWD'),
+  'pathalgo': np.str_('CONTEXTSENSITIVE'),
+  'pathreconstructionmode': np.str_('NONE'),
+  'staticmode': np.str_('CONTEXTFLOWSENSITIVE'),
+})
+Optimal cost: 0.28012820512820513
+
+Runhistory:
+------------------------
+configuration_id= 1
+configuration = Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('SOURCELIST'),
+  'cgalgo': np.str_('GEOM'),
+  'codeelimination': np.str_('NONE'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('ALL'),
+  'layoutmode': np.str_('PWD'),
+  'pathalgo': np.str_('CONTEXTSENSITIVE'),
+  'pathreconstructionmode': np.str_('NONE'),
+  'staticmode': np.str_('CONTEXTFLOWSENSITIVE'),
+})
+cost = 0.28012820512820513
+------------------------
+(.venv) ljubarah@sse-vm-leen:~$ 
