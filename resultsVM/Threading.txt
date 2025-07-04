@@ -1,0 +1,100 @@
+(.venv) ljubarah@sse-vm-leen:~$ python3 Threading.py 
+[INFO][abstract_initial_design.py:87] Reducing the number of initial configurations from 110 to 62 (max_ratio == 0.25).
+[INFO][abstract_initial_design.py:139] Using 62 initial design configurations and 0 additional configurations.
+[INFO][abstract_intensifier.py:307] Using only one seed for deterministic scenario.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Threading/JavaThread2.apk'
+
+^[Success for APK '/local/ljubarah/DroidBench-develop/apk/Threading/TimerTask1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Threading/Executor1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Threading/Looper1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Threading/JavaThread1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Threading/AsyncTask1.apk'
+all_f_score [1.0, 1.0, 1.0, 0, 1.0, 1.0]
+1 - statistics.mean(all_f_score) 0.16666666666666663
+[INFO][abstract_intensifier.py:517] Added config 710c25 as new incumbent because there are no incumbents yet.
+[INFO][smbo.py:473] Cost threshold was reached. Abort is requested.
+[INFO][smbo.py:340] Shutting down because the stop flag was set.
+[INFO][abstract_intensifier.py:307] Using only one seed for deterministic scenario.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Threading/JavaThread2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Threading/TimerTask1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Threading/Executor1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Threading/Looper1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Threading/JavaThread1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Threading/AsyncTask1.apk'
+all_f_score [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+1 - statistics.mean(all_f_score) 0.0
+Default configuration: Configuration(values={
+  'aliasalgo': 'NONE',
+  'callbackanalyzer': 'DEFAULT',
+  'callbacksourcemode': 'NONE',
+  'cgalgo': 'CHA',
+  'codeelimination': 'NONE',
+  'dataflowsolver': 'CONTEXTFLOWSENSITIVE',
+  'implicit': 'NONE',
+  'layoutmode': 'NONE',
+  'pathalgo': 'CONTEXTSENSITIVE',
+  'pathreconstructionmode': 'NONE',
+  'staticmode': 'CONTEXTFLOWSENSITIVE',
+})
+Default cost: 0.0
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Threading/JavaThread2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Threading/TimerTask1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Threading/Executor1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/Threading/Looper1.apk' due to [FlowDroid] ERROR
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Threading/JavaThread1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/Threading/AsyncTask1.apk'
+all_f_score [1.0, 1.0, 1.0, 0, 1.0, 1.0]
+1 - statistics.mean(all_f_score) 0.16666666666666663
+Incumbent configuration: Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('SOURCELIST'),
+  'cgalgo': np.str_('GEOM'),
+  'codeelimination': np.str_('NONE'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('ALL'),
+  'layoutmode': np.str_('PWD'),
+  'pathalgo': np.str_('CONTEXTSENSITIVE'),
+  'pathreconstructionmode': np.str_('NONE'),
+  'staticmode': np.str_('CONTEXTFLOWSENSITIVE'),
+})
+Optimal cost: 0.16666666666666663
+
+Runhistory:
+------------------------
+configuration_id= 1
+configuration = Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('SOURCELIST'),
+  'cgalgo': np.str_('GEOM'),
+  'codeelimination': np.str_('NONE'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('ALL'),
+  'layoutmode': np.str_('PWD'),
+  'pathalgo': np.str_('CONTEXTSENSITIVE'),
+  'pathreconstructionmode': np.str_('NONE'),
+  'staticmode': np.str_('CONTEXTFLOWSENSITIVE'),
+})
+cost = 0.16666666666666663
+------------------------
+(.venv) ljubarah@sse-vm-leen:~$ 
