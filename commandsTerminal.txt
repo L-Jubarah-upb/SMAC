@@ -22,3 +22,6 @@ rm file
 
 #delete directory
 rm -rf directory
+
+#create new directory
+mkdir new1
