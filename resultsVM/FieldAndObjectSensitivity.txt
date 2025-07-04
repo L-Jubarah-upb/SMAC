@@ -1,0 +1,285 @@
+(.venv) ljubarah@sse-vm-leen:~$ ls
+Call                  FieldAndObjectSensitivity.py  old              platforms
+DroidBench-develop    FlowDroid-2.14.1              Output_01_07_25  smac3_output
+EmulatorDetection.py  my-venv                       path             Users
+(.venv) ljubarah@sse-vm-leen:~$ rm EmulatorDetection.py 
+(.venv) ljubarah@sse-vm-leen:~$ ls
+Call                FieldAndObjectSensitivity.py  my-venv  Output_01_07_25  platforms     Users
+DroidBench-develop  FlowDroid-2.14.1              old      path             smac3_output
+(.venv) ljubarah@sse-vm-leen:~$ python FieldAndObjectSensitivity.py 
+[INFO][abstract_initial_design.py:87] Reducing the number of initial configurations from 110 to 62 (max_ratio == 0.25).
+[INFO][abstract_initial_design.py:139] Using 62 initial design configurations and 0 additional configurations.
+[INFO][abstract_intensifier.py:307] Using only one seed for deterministic scenario.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/InheritedObjects1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/FieldSensitivity3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/FieldSensitivity4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/FieldSensitivity2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/ObjectSensitivity1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/FieldSensitivity1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/ObjectSensitivity2.apk'
+all_f_score [1.0, 1.0, 0.0, 0.0, 0.0, 1, 0.0]
+1 - statistics.mean(all_f_score) 0.5714285714285714
+[INFO][abstract_intensifier.py:517] Added config 710c25 as new incumbent because there are no incumbents yet.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/InheritedObjects1.apk'
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/FieldSensitivity3.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/FieldSensitivity4.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/FieldSensitivity2.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/ObjectSensitivity1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/FieldSensitivity1.apk' due to [FlowDroid] ERROR
+
+if-block
+Skipping APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/ObjectSensitivity2.apk' due to [FlowDroid] ERROR
+all_f_score [1.0, 0, 0, 0, 0, 0, 0]
+1 - statistics.mean(all_f_score) 0.8571428571428572
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/InheritedObjects1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/FieldSensitivity3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/FieldSensitivity4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/FieldSensitivity2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/ObjectSensitivity1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/FieldSensitivity1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/ObjectSensitivity2.apk'
+all_f_score [1.0, 0.0, 1, 1, 1, 0.0, 1]
+1 - statistics.mean(all_f_score) 0.2857142857142857
+[INFO][abstract_intensifier.py:596] Added config a37ca5 and rejected config 710c25 as incumbent because it is not better than the incumbents on 1 instances: 
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/InheritedObjects1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/FieldSensitivity3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/FieldSensitivity4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/FieldSensitivity2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/ObjectSensitivity1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/FieldSensitivity1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/ObjectSensitivity2.apk'
+all_f_score [1.0, 1.0, 0.0, 0.0, 0.0, 1, 0.0]
+1 - statistics.mean(all_f_score) 0.5714285714285714
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/InheritedObjects1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/FieldSensitivity3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/FieldSensitivity4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/FieldSensitivity2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/ObjectSensitivity1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/FieldSensitivity1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/ObjectSensitivity2.apk'
+all_f_score [1.0, 1.0, 0.0, 0.0, 0.0, 1, 0.0]
+1 - statistics.mean(all_f_score) 0.5714285714285714
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/InheritedObjects1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/FieldSensitivity3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/FieldSensitivity4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/FieldSensitivity2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/ObjectSensitivity1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/FieldSensitivity1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/ObjectSensitivity2.apk'
+all_f_score [1.0, 0.0, 1, 1, 1, 1, 1]
+1 - statistics.mean(all_f_score) 0.1428571428571429
+[INFO][abstract_intensifier.py:596] Added config f4fa05 and rejected config a37ca5 as incumbent because it is not better than the incumbents on 1 instances: 
+[INFO][smbo.py:473] Cost threshold was reached. Abort is requested.
+[INFO][smbo.py:340] Shutting down because the stop flag was set.
+[INFO][abstract_intensifier.py:307] Using only one seed for deterministic scenario.
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/InheritedObjects1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/FieldSensitivity3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/FieldSensitivity4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/FieldSensitivity2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/ObjectSensitivity1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/FieldSensitivity1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/ObjectSensitivity2.apk'
+all_f_score [1.0, 1.0, 1, 1, 1, 1, 1]
+1 - statistics.mean(all_f_score) 0.0
+Default configuration: Configuration(values={
+  'aliasalgo': 'NONE',
+  'callbackanalyzer': 'DEFAULT',
+  'callbacksourcemode': 'NONE',
+  'cgalgo': 'CHA',
+  'codeelimination': 'NONE',
+  'dataflowsolver': 'CONTEXTFLOWSENSITIVE',
+  'implicit': 'NONE',
+  'layoutmode': 'NONE',
+  'pathalgo': 'CONTEXTSENSITIVE',
+  'pathreconstructionmode': 'NONE',
+  'staticmode': 'CONTEXTFLOWSENSITIVE',
+})
+Default cost: 0.0
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/InheritedObjects1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/FieldSensitivity3.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/FieldSensitivity4.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/FieldSensitivity2.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/ObjectSensitivity1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/FieldSensitivity1.apk'
+
+Success for APK '/local/ljubarah/DroidBench-develop/apk/FieldAndObjectSensitivity/ObjectSensitivity2.apk'
+all_f_score [1.0, 0.0, 1, 1, 1, 1, 1]
+1 - statistics.mean(all_f_score) 0.1428571428571429
+Incumbent configuration: Configuration(values={
+  'aliasalgo': np.str_('LAZY'),
+  'callbackanalyzer': np.str_('DEFAULT'),
+  'callbacksourcemode': np.str_('SOURCELIST'),
+  'cgalgo': np.str_('RTA'),
+  'codeelimination': np.str_('REMOVECODE'),
+  'dataflowsolver': np.str_('CONTEXTFLOWSENSITIVE'),
+  'implicit': np.str_('ARRAYONLY'),
+  'layoutmode': np.str_('NONE'),
+  'pathalgo': np.str_('CONTEXTSENSITIVE'),
+  'pathreconstructionmode': np.str_('NONE'),
+  'staticmode': np.str_('CONTEXTFLOWSENSITIVE'),
+})
+Optimal cost: 0.1428571428571429
+
+Runhistory:
+------------------------
+configuration_id= 1
+configuration = Configuration(values={
+  'aliasalgo': np.str_('FLOWSENSITIVE'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('SOURCELIST'),
+  'cgalgo': np.str_('GEOM'),
+  'codeelimination': np.str_('NONE'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('ALL'),
+  'layoutmode': np.str_('PWD'),
+  'pathalgo': np.str_('CONTEXTSENSITIVE'),
+  'pathreconstructionmode': np.str_('NONE'),
+  'staticmode': np.str_('CONTEXTFLOWSENSITIVE'),
+})
+cost = 0.5714285714285714
+------------------------
+------------------------
+configuration_id= 2
+configuration = Configuration(values={
+  'aliasalgo': np.str_('PTSBASED'),
+  'callbackanalyzer': np.str_('DEFAULT'),
+  'callbacksourcemode': np.str_('NONE'),
+  'cgalgo': np.str_('VTA'),
+  'codeelimination': np.str_('PROPAGATECONSTS'),
+  'dataflowsolver': np.str_('CONTEXTFLOWSENSITIVE'),
+  'implicit': np.str_('NONE'),
+  'layoutmode': np.str_('PWD'),
+  'pathalgo': np.str_('CONTEXTINSENSITIVE'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+  'staticmode': np.str_('NONE'),
+})
+cost = 0.8571428571428572
+------------------------
+------------------------
+configuration_id= 3
+configuration = Configuration(values={
+  'aliasalgo': np.str_('LAZY'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('SOURCELIST'),
+  'cgalgo': np.str_('RTA'),
+  'codeelimination': np.str_('REMOVECODE'),
+  'dataflowsolver': np.str_('CONTEXTFLOWSENSITIVE'),
+  'implicit': np.str_('ALL'),
+  'layoutmode': np.str_('ALL'),
+  'pathalgo': np.str_('SOURCESONLY'),
+  'pathreconstructionmode': np.str_('FAST'),
+  'staticmode': np.str_('CONTEXTFLOWINSENSITIVE'),
+})
+cost = 0.2857142857142857
+------------------------
+------------------------
+configuration_id= 4
+configuration = Configuration(values={
+  'aliasalgo': np.str_('NONE'),
+  'callbackanalyzer': np.str_('DEFAULT'),
+  'callbacksourcemode': np.str_('NONE'),
+  'cgalgo': np.str_('AUTO'),
+  'codeelimination': np.str_('PROPAGATECONSTS'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('ARRAYONLY'),
+  'layoutmode': np.str_('NONE'),
+  'pathalgo': np.str_('CONTEXTINSENSITIVE'),
+  'pathreconstructionmode': np.str_('NONE'),
+  'staticmode': np.str_('CONTEXTFLOWSENSITIVE'),
+})
+cost = 0.5714285714285714
+------------------------
+------------------------
+configuration_id= 5
+configuration = Configuration(values={
+  'aliasalgo': np.str_('NONE'),
+  'callbackanalyzer': np.str_('FAST'),
+  'callbacksourcemode': np.str_('NONE'),
+  'cgalgo': np.str_('CHA'),
+  'codeelimination': np.str_('NONE'),
+  'dataflowsolver': np.str_('FLOWINSENSITIVE'),
+  'implicit': np.str_('ALL'),
+  'layoutmode': np.str_('ALL'),
+  'pathalgo': np.str_('SOURCESONLY'),
+  'pathreconstructionmode': np.str_('PRECISE'),
+  'staticmode': np.str_('CONTEXTFLOWINSENSITIVE'),
+})
+cost = 0.5714285714285714
+------------------------
+------------------------
+configuration_id= 6
+configuration = Configuration(values={
+  'aliasalgo': np.str_('LAZY'),
+  'callbackanalyzer': np.str_('DEFAULT'),
+  'callbacksourcemode': np.str_('SOURCELIST'),
+  'cgalgo': np.str_('RTA'),
+  'codeelimination': np.str_('REMOVECODE'),
+  'dataflowsolver': np.str_('CONTEXTFLOWSENSITIVE'),
+  'implicit': np.str_('ARRAYONLY'),
+  'layoutmode': np.str_('NONE'),
+  'pathalgo': np.str_('CONTEXTSENSITIVE'),
+  'pathreconstructionmode': np.str_('NONE'),
+  'staticmode': np.str_('CONTEXTFLOWSENSITIVE'),
+})
+cost = 0.1428571428571429
+------------------------
+(.venv) ljubarah@sse-vm-leen:~$ 
