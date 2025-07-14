@@ -1,3 +1,9 @@
+# creation time of directory "DroidBench-develop"
+ls -l --time=birth DroidBench-develop/
+
+# i think last modification time of directory "DroidBench-develop"
+ls -lt DroidBench-develop/
+
 # copy file "FlowDroid.py" from my mac to VM:
 scp /Users/ljubarah/SMAC3/benchmark/src/models/FlowDroid.py ljubarah@smac:~
 
