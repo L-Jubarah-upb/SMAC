@@ -10,6 +10,9 @@ scp /Users/ljubarah/SMAC3/benchmark/src/models/FlowDroid.py ljubarah@smac:~
 # copy directory "SMAC3_VM" from my mac to VM:
 scp -r /Users/ljubarah/SMAC3_VM ljubarah@smac:~
 
+# copy file test1.json from my mac to VM (to particular location)
+scp /Users/ljubarah/Downloads/test1.json ljubarah@smac:ordner1/subordner1
+
 # copy file with path "ordner1/subordner1/test.txt" from VM to my mac
 scp ljubarah@smac:ordner1/subordner1/test.txt /Users/ljubarah/Downloads
 
