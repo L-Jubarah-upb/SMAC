@@ -36,3 +36,15 @@ rm -rf directory
 
 #create new directory
 mkdir new1
+
+# retries changed
+/Users/ljubarah/SMAC3/smac/intensifier/intensifier.py
+/Users/ljubarah/SMAC3/smac/facade/hyperparameter_optimization_facade.py
+/Users/ljubarah/SMAC3/tests/fixtures/config_selector.py
+/Users/ljubarah/SMAC3/smac/facade/blackbox_facade.py
+/Users/ljubarah/SMAC3/smac/facade/abstract_facade.py
+/Users/ljubarah/SMAC3/benchmark/src/models/VMDroidBench.py
+
+/Users/ljubarah/SMAC3/smac/main/config_selector.py
+
+
