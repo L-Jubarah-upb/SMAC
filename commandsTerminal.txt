@@ -1,3 +1,6 @@
+# find all files with .py ending
+find . -type f -name \*.py
+
 # creation time of directory "DroidBench-develop"
 ls -l --time=birth DroidBench-develop/
 
