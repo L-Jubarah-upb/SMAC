@@ -1,3 +1,6 @@
+# find all files in directory "SMAC3_VM" with pattern 'Could not return a new configuration after'
+grep -rnw 'SMAC3_VM' -e 'Could not return a new configuration after'
+
 # find all files with .py ending
 find . -type f -name \*.py
 
