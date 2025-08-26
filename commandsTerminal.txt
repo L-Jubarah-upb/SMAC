@@ -1,3 +1,34 @@
+# run program in VM in background and save output in output.log
+ssh ljubarah@smac
+...
+nohup python3 VMDroidBench.py > output.log 2>&1 &
+
+# i receive a number, save it for later!
+# now i can turn down laptop and check results later
+cat output.log
+
+# if i want to know if program is still running
+ps -p "number i had to save"
+
+# if i don't remember number
+ps aux | grep program.py
+
+# check progams output
+tail -f output.log
+# stop watching progams output
+Press "Ctrl + C"
+
+#Stop the background script
+kill "number i had to save"
+# or 
+pkill -f VMDroidBench.py
+
+
+
+
+
+
+
 # find all files in directory "SMAC3_VM" with pattern 'Could not return a new configuration after'
 grep -rnw 'SMAC3_VM' -e 'Could not return a new configuration after'
 
