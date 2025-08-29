@@ -30,8 +30,11 @@ pkill -f VMDroidBench.py
 # history all commands
 HISTTIMEFORMAT="%F %T " history
 
-#find . -iname "*DroidBench*" 
-find all files contain DroidBench in name (insensitive case)
+# find all files contain DroidBench in name (insensitive)
+find . -iname "*DroidBench*" 
+
+# find all files contain flowdroid and DroidBench (insensitive)
+find . -type f \( -iname "*flowdroid*" -a -iname "*DroidBench*" \)
 
 # find all files in directory "SMAC3_VM" with pattern 'Could not return a new configuration after'
 grep -rnw 'SMAC3_VM' -e 'Could not return a new configuration after'
