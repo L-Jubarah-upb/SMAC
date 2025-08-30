@@ -1,3 +1,7 @@
+# name of vm
+ssh ljubarah@smac
+uname -a
+
 # run program in VM in background and save output in output.log
 ssh ljubarah@smac
 ...
