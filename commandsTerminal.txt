@@ -1,3 +1,8 @@
+#clone repo from git:
+#copy url and add ".git" at end, for example:
+git clone https://github.com/amordahl/RethinkingAndroid_ISSTA2021.git
+
+
 # name of vm
 ssh ljubarah@smac
 uname -a
