@@ -1,3 +1,9 @@
+# birth of file is in last line:
+stat output.log
+
+# last edit-time of file:
+ls -l output.log 
+
 #clone repo from git:
 #copy url and add ".git" at end, for example:
 git clone https://github.com/amordahl/RethinkingAndroid_ISSTA2021.git
