@@ -1,3 +1,10 @@
+# copy multiple files from mac to VM:
+scp /Users/ljubarah/Downloads/t1.txt /Users/ljubarah/Downloads/t2.txt ljubarah@smac:~
+
+# copy file from mac to VM to directory SMAC3_VM
+scp /Users/ljubarah/Downloads/t1.txt ljubarah@smac:~/SMAC3_VM
+
+
 # birth of file is in last line:
 stat output.log
 
