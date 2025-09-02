@@ -4,6 +4,8 @@ scp /Users/ljubarah/Downloads/t1.txt /Users/ljubarah/Downloads/t2.txt ljubarah@s
 # copy file from mac to VM to directory SMAC3_VM
 scp /Users/ljubarah/Downloads/t1.txt ljubarah@smac:~/SMAC3_VM
 
+# copy multiple files from VM to my mac
+scp ljubarah@smac:SMAC3_VM/t1.txt SMAC3_VM/t2.txt /Users/ljubarah/Downloads
 
 # birth of file is in last line:
 stat output.log
