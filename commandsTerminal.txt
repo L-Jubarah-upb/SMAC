@@ -1,6 +1,8 @@
 # copy multiple files from mac to VM:
 scp /Users/ljubarah/Downloads/t1.txt /Users/ljubarah/Downloads/t2.txt ljubarah@smac:~
 
+
+
 # copy file from mac to VM to directory SMAC3_VM
 scp /Users/ljubarah/Downloads/t1.txt ljubarah@smac:~/SMAC3_VM
 
@@ -79,6 +81,10 @@ scp /Users/ljubarah/SMAC3/benchmark/src/models/FlowDroid.py ljubarah@smac:~
 
 # copy directory "SMAC3_VM" from my mac to VM:
 scp -r /Users/ljubarah/SMAC3_VM ljubarah@smac:~
+
+
+# copy directory from VM to my mac:
+scp -r ljubarah@smac:smac3_output/9e7b0430b04a9a67a98462c7f3a60761/123456 /Users/ljubarah/Downloads 
 
 # copy file test1.json from my mac to VM (to particular location)
 scp /Users/ljubarah/Downloads/test1.json ljubarah@smac:ordner1/subordner1
