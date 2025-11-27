@@ -1,0 +1,2 @@
+# create new virtual environment in folder /Users/ljubarah/Dokumente/virtual and call it "myfirstproject" 
+python -m venv /Users/ljubarah/Dokumente/virtual/myfirstproject
