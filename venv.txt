@@ -1,2 +1,26 @@
 # create new virtual environment in folder /Users/ljubarah/Dokumente/virtual and call it "myfirstproject" 
 python -m venv /Users/ljubarah/Dokumente/virtual/myfirstproject
+
+# activate this virtual environment
+source /Users/ljubarah/Testen/virtual/myfirstproject/bin/activate
+
+# install via pip packages only for that environment
+pip install numpy
+
+# run python file test.py inside this virtual environment:
+# first activate it
+# then run the python file by navigating to it and add python (is python3 also possible?) before it:
+python /Users/ljubarah/Testen/virtual/test.py
+
+# close virtual environment:
+deactivate
+
+# list all packages which were installed by pip:
+python -m pip list
+
+# get help from module:
+# create python file calles "test.py"
+# add into this file:
+import module
+help(module)
+# then run this script as explained above
