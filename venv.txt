@@ -1,5 +1,5 @@
 # create new virtual environment in folder /Users/ljubarah/Dokumente/virtual and call it "myfirstproject" 
-python -m venv /Users/ljubarah/Dokumente/virtual/myfirstproject
+python -m venv /Users/ljubarah/Testen/virtual/myfirstproject
 
 # activate this virtual environment
 source /Users/ljubarah/Testen/virtual/myfirstproject/bin/activate
