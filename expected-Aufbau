@@ -1,0 +1,8 @@
+Klasse.methode.methode
+-> Klasse.Zahl: methode
+
+Klasse.Klasse (implements): meethode
+-> Klasse.Klasse: methode
+
+Klasse.irgendwas (new).methode
+-> Klasse.Zahl: methode
