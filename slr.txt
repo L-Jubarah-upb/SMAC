@@ -11,3 +11,6 @@ L 161f:
 and which combinations might rather cause conflicts between optimization goals of may cause problems during integration because the underlying assumptions of these optimizations conflict with one another.
 
 -> Leen: use instead "of" "or"
+
+
+quelle [20] is not a phd, but a master thesis
