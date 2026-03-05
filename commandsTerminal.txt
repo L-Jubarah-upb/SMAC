@@ -71,7 +71,7 @@ find . -type f -name \*.py
 # creation time of directory "DroidBench-develop"
 ls -l --time=birth DroidBench-develop/
 
-# i think last modification time of directory "DroidBench-develop"
+# last modification time of directory "DroidBench-develop"
 ls -lt DroidBench-develop/ 
 # or
 ls -l DroidBench-develop/ 
