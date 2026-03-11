@@ -36,7 +36,10 @@ cat output.log
 # if i want to know if program is still running
 ps -p "number i had to save"
 
-# if i don't remember number
+# see background jobs in the current session
+jobs
+
+# if i don't remember number and also i can see processes running
 ps aux | grep program.py
 
 # check progams output
